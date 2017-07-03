@@ -35,7 +35,7 @@
 
 <header >
     <div class="container">
-        <a href="#" class="logo-link"><img class="logo" src="images/logo.png" alt="Logo"></a>
+        <a href="{{url('/')}}"><img class="logo" src="images/logo.png" alt="Logo"></a>
 
         <nav class="main-menu clearfix">
             <h2 class="hidden">Main Menu</h2>
@@ -54,7 +54,7 @@
                     <a href="{{url('/contact')}}">Contacto</a>
                 </li>
                 <li class="menu-item">
-                    <a href="{{url('/contact')}}">Ingresar</a>
+                    <a href="{{url('/')}}">Ingresar</a>
                 </li>
             </ul>
         </nav>
@@ -70,19 +70,19 @@
         <h2 class="hidden">Mobile Navigation Menu</h2>
         <ul>
             <li class="mobile-menu-item">
-                <a class="menu-item" href="#">Inicio<i class="toggle-state-icon icon-angle-right"></i></a>
+                <a href="{{url('/')}}">Inicio</a>
             </li>
             <li class="mobile-menu-item">
-                <a class="menu-item" href="about.html">Quienes Somos</a>
+                <a href="{{url('/about')}}">Quienes Somos</a>
             </li>
             <li class="mobile-menu-item">
-                <a class="menu-item" href="facilities.html">Servicios</a>
+                <a href="{{url('/services')}}">Servicios</a>
             </li>
             <li class="mobile-menu-item">
-                <a class="menu-item" href="contact.html">Contacto</a>
+                <a href="{{url('/contact')}}">Contacto</a>
             </li>
             <li class="mobile-menu-item">
-                <a class="menu-item" href="contact.html">Ingresar</a>
+                <a href="{{url('/')}}">Ingresar</a>
             </li>
         </ul>
     </nav>
@@ -96,10 +96,10 @@
             <div class="col-sm-4">
                 <h3 class="subtitle"><strong>Links</strong></h3>
                 <ul class="site-links">
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Quienes Somos</a></li>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="{{url('/services')}}">Servicios</a></li>
+                    <li><a href="{{url('/about')}}">Quienes Somos</a></li>
+                    <li><a href="{{url('/reglamento')}}">Reglamento del Hotel</a></li>
+                    <li><a href="{{url('/contact')}}">Contacto</a></li>
                 </ul>
             </div>
             <div class="col-sm-4 text-center">
@@ -120,11 +120,6 @@
                 </div>
         </div>
     </div>
-   <!-- <div class="copyright-area">
-        <div class="container">
-            <p>@2015 The Moon Hotel. Designed with <i class="fa fa-heart"></i></p>
-        </div>
-    </div>-->
 </footer>
 
 <!---<script type="text/javascript" src="js/jquery.js"></script>-->
