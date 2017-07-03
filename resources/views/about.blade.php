@@ -4,27 +4,66 @@
 @section('contenido')
 
     <section class="section-breadcrumb">
-        <h2 class="title" >About the Moon Hotel</h2>
-        <div class="breadcrumb">
-            You are here: <span class="slug"><span class="home"> Home </span> <span class="page"> > About Us</span></span>
-        </div>
+        <h2 class="title">Quienes Somos</h2>
     </section>
 
+
+    <section class="section-style-2 section-why-us section-bg-white">
+        <div class="container">
+            <div>
+                <h2 class="title" >Que nos hace diferentes</h2>
+                <div class="section-starter"></div>
+            </div>
+            <div class="row" align="center">
+                <div class="col-sm-4">
+                    <div class="content-box ">
+                        <!--<img src="images/home/why-moon-1.jpg" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-1">-->
+                        <h3 class="title">Misión</h3>
+                        <p class="content">Para el HOTEL EL SAMÁN es un compromiso con nuestros huéspedes 
+                            satisfacer a plenitud  sus expectativas con criterios de eficiencia, calidad y 
+                            seguridad y mediante una óptima tecnología y recurso humano calificado a su servicio 
+                            y de sus familias.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="content-box">
+                      <!--  <img src="images/home/why-moon-2.jpg" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-2">-->
+                        <h3 class="title">Visión</h3>
+                        <p class="content">Consolidar el HOTEL EL SAMAN como el mejor de la región, velando siempre por una 
+                            excelencia en servicio y trabajando cada día por el mejoramiento de la calidad de vida de sus 
+                            huéspedes y su área de influencia.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     <section class="section-style-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="title" >Our Story</h2>
+                    <h2 class="title" >Política de Sostenibilidad</h2>
                     <div class="section-starter"></div>
                     <div class="row">
                         <div class="col-sm-6">
-                            <p class="content">Etiam venenatis elit in tortor dapibus, ut euismod tortor posuere. Sed id massa urna. Nam est ex, maximus bibendum magna ac, sodales feugiat justo. Maecenas a urna rhoncus, laoreet ligula vel, pellentesque lorem. Mauris fringilla sem enim, eget maximus elit lacinia at. Nulla sit amet semper massa, ac volutpat turpis.</p>
-                            <p>Donec sodales erat in dapibus volutpat. Nulla a mattis lacus. Sed rhoncus purus id fermentum finibus. Suspendisse dapibus vulputate augue non interdum </p>
+                            <p class="content">Promovemos la integración de los valores y principios asociados al desarrollo sostenible 
+                                en nuestros procesos de negocio y en la relación con todos nuestros grupos de interés.  
+                                Creemos que la sostenibilidad es el elemento clave que permitirá que el turismo siga siendo motor de la 
+                                economía en tantos países.  Trabajar de forma que se pueda sobrepasar las expectativas y necesidades de 
+                                nuestros clientes generando experiencias memorables, brindando el mejor servicio y fomentando en nuestro 
+                                equipo la cultura de mejora continua.  Somos conscientes que el desarrollo de nuestra actividad debe 
+                                realizarse respetando el medio ambiente, promoviendo programas y actividades que incentiven la conservación 
+                                y disminución del impacto del mismo en el entorno de nuestros destinos turísticos a través del respeto 
+                                a la fauna y flora.</p>
                         </div>
                         <div class="col-sm-6">
                             <p class="content">
-                                Pellentesque vestibulum odio vitae tellus sagittis feugiat. Pellentesque eget tortor lorem. Integer sit amet placerat est. Quisque varius nibh nulla, ac bibendum diam aliquet eu. Quisque molestie est ac porta luctus. Quisque gravida, diam sit amet condimentum placerat, eros mi vestibulum nisl, quis tincidunt neque massa quis mi. Etiam tincidunt arcu in luctus tempor. Morbi scelerisque venenatis diam, sit amet tincidunt lectus sagittis id.
+                                Nuestros colaboradores, proveedores, clientes y huéspedes están comprometidos con el mantenimiento o mejora 
+                                de los impactos ambientales, socioculturales y económicos positivos y el manejo, minimización o eliminación 
+                                de aquellos impactos negativos generados, que se incluyen en los deberes y derechos en pro de la sostenibilidad.
+                                Estamos en contra de la explotación sexual comercial de niños, niñas y adolescentes (ESCNNA) y la 
+                                discriminación de género o raza.
                             </p>
                         </div>
                     </div>
@@ -43,40 +82,6 @@
             </div>
         </div>
     </section>
-
-
-    <section class="section-style-2 section-why-us section-bg-white">
-        <div class="container">
-            <div>
-                <h2 class="title" >What Makes Us Different</h2>
-                <div class="section-starter"></div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="content-box ">
-                        <img src="images/home/why-moon-1.jpg" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-1">
-                        <h3 class="title">Offering Best Experience</h3>
-                        <p class="content">Porttitor pharetra tortor in, consequat imperdiet nisi. Phasellus at quam tristique, cursus tellus vitae, convallis neque. Sed a lacinia sapien. Etiam dignissim sit amet felis ac sagittis pharetra sagittis ultrices.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="content-box">
-                        <img src="images/home/why-moon-2.jpg" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-2">
-                        <h3 class="title">Luxury Rooms</h3>
-                        <p class="content">Vestibulum quis posuere ligula. Fusce in odio ac diam finibus tempus. Suspendisse potenti. Etiam accumsan purus magna, et viverra neque volutpat fermentum. Vivamus consequat, felis at aliquam elementum, massa sem.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="content-box">
-                        <img src="images/home/why-moon-3.jpg" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-3">
-                        <h3 class="title">Friendly & Professional Staff</h3>
-                        <p class="content ">Donec condimentum id erat a molestie. In luctus quis risus cursus faucibus. Pellentesque ornare dui cursus ex dictum, eget porttitor est iaculis. Quisque vehicula iaculis purus a egestas in tortor facilisis, congue nisi.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <section class="section-style-2 section-testimonials-2 ">
         <div class="container">
@@ -116,51 +121,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <h2 class="title" >Testimonial</h2>
-                    <div class="section-starter"></div>
-                    <div class="testimonial-slider-2 swiper-container">
-                        <div class="swiper-wrapper">
-                            <!-- Testimonial 01 -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-box">
-                                    <p class="text">Etiam egestas nisl et risus hendrerit, eu ultrices massa tristique. Sed eget ante hendrerit dui tristique porttitor. Nunc feugiat odio sit amet magna vehicula suscipit. Nunc at urna in elit volutpat venenatis sit amet id libero. Nam sollicitudin vestibulum dui, ut tristique elit dictum in dis parturient montes.</p>
-                                    <div class="tri-down"></div>
-                                    <div class="profile" >
-                                        <img src="images/about/avatar-1.png" class="img img-circle avatar" alt="avatar-1">
-                                        <h3 class="name">Thomas Claymond</h3>
-                                        <div class="position">IT Enginner</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Testimonial 02 -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-box">
-                                    <p class="text">Etiam egestas nisl et risus hendrerit, eu ultrices massa tristique. Sed eget ante hendrerit dui tristique porttitor. Nunc feugiat odio sit amet magna vehicula suscipit. Nunc at urna in elit volutpat venenatis sit amet id libero. Nam sollicitudin vestibulum dui, ut tristique elit dictum in dis parturient montes.</p>
-                                    <div class="tri-down"></div>
-                                    <div class="profile">
-                                        <img src="images/about/avatar-2.png" class="img img-circle avatar" alt="avatar-2">
-                                        <h3 class="name">Thomas Claymond</h3>
-                                        <div class="position">IT Enginner</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Testimonial 03 -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-box">
-                                    <p class="text">Etiam egestas nisl et risus hendrerit, eu ultrices massa tristique. Sed eget ante hendrerit dui tristique porttitor. Nunc feugiat odio sit amet magna vehicula suscipit. Nunc at urna in elit volutpat venenatis sit amet id libero. Nam sollicitudin vestibulum dui, ut tristique elit dictum in dis parturient montes.</p>
-                                    <div class="tri-down"></div>
-                                    <div class="profile">
-                                        <img src="images/about/avatar-3.png" class="img img-circle avatar" alt="avatar-3">
-                                        <h3 class="name">Thomas Claymond</h3>
-                                        <div class="position">IT Enginner</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-slider-page-controls"></div>
                 </div>
             </div>
 

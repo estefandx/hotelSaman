@@ -86,41 +86,4 @@
         </div>
     </section>
 
-    <section class="section-testimonials bg-secondary">
-        <div class="text-center">
-            <h2 class="title">Testimonial</h2>
-        </div>
-        <div class="moon-divider white"></div>
-        <div class="container">
-            <div class="testimonial-slider swiper-container">
-                <div class="swiper-wrapper">
-                    <!-- Testimonial 01 -->
-                    <div class="swiper-slide">
-                        <div class="testimonial-box">
-                            <p class="text">Aliquam sodales facilisis dolor, feugiat elementum tellus condimentum at. Mauris sem nisi, dictum eget facilisis quis, placerat eu nisl. Phasellus consectetur pharetra elit id maximus. Aliquam facilisis sodales erat, sit amet euismod eros dignissim aliquam pulvinar metus.</p>
-                            <h3 class="name">Charles Coleman</h3>
-                            <div class="position">CEO of Pineapple</div>
-                        </div>
-                    </div>
-                    <!-- Testimonial 02 -->
-                    <div class="swiper-slide">
-                        <div class="testimonial-box">
-                            <p class="text">Aliquam sodales facilisis dolor, feugiat elementum tellus condimentum at. Mauris sem nisi, dictum eget facilisis quis, placerat eu nisl. Phasellus consectetur pharetra elit id maximus. Aliquam facilisis sodales erat, sit amet euismod eros dignissim aliquam pulvinar metus.</p>
-                            <h3 class="name">Charles Coleman</h3>
-                            <div class="position">CEO of Pineapple</div>
-                        </div>
-                    </div>
-                    <!-- Testimonial 03 -->
-                    <div class="swiper-slide">
-                        <div class="testimonial-box">
-                            <p class="text">Aliquam sodales facilisis dolor, feugiat elementum tellus condimentum at. Mauris sem nisi, dictum eget facilisis quis, placerat eu nisl. Phasellus consectetur pharetra elit id maximus. Aliquam facilisis sodales erat, sit amet euismod eros dignissim aliquam pulvinar metus.</p>
-                            <h3 class="name">Charles Coleman</h3>
-                            <div class="position">CEO of Pineapple</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-slider-page-controls"></div>
-        </div>
-    </section>
 @endsection

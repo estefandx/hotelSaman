@@ -43,28 +43,28 @@
 
     <!-- seccion de las 3 imagenes para los negocios -->
     <section class="section-why-us">
-        <h2 class="title text-center" >Why the Moon Hotel</h2>
+        <h2 class="title text-center" >Nuestros Servicios</h2>
         <div class="moon-divider"></div>
         <div class="container">
-            <div class="row">
+            <div class="row">   
+                <div class="col-sm-4">
+                    <div class="content-box">
+                        <img src="images/home/restaurante.png" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-2">
+                        <h3 class="title">Restaurante Las Tapas</h3>
+                        <p class="content">Vestibulum quis posuere ligula. Fusce in odio ac diam finibus tempus. Suspendisse potenti. Etiam accumsan purus magna, et viverra neque volutpat fermentum. Vivamus consequat, felis at aliquam elementum, massa sem.</p>
+                    </div>
+                </div>
                 <div class="col-sm-4">
                     <div class="content-box ">
-                        <img src="images/home/why-moon-1.jpg" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-1">
-                        <h3 class="title">Offering Best Experience</h3>
+                        <img src="images/home/polideportivo.png" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-1">
+                        <h3 class="title">Piscinas Polideportivo</h3>
                         <p class="content">Porttitor pharetra tortor in, consequat imperdiet nisi. Phasellus at quam tristique, cursus tellus vitae, convallis neque. Sed a lacinia sapien. Etiam dignissim sit amet felis ac sagittis pharetra sagittis ultrices.</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="content-box">
-                        <img src="images/home/why-moon-2.jpg" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-2">
-                        <h3 class="title">Luxury Rooms</h3>
-                        <p class="content">Vestibulum quis posuere ligula. Fusce in odio ac diam finibus tempus. Suspendisse potenti. Etiam accumsan purus magna, et viverra neque volutpat fermentum. Vivamus consequat, felis at aliquam elementum, massa sem.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="content-box">
-                        <img src="images/home/why-moon-3.jpg" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-3">
-                        <h3 class="title">Friendly & Professional Staff</h3>
+                        <img src="images/home/eventos.png" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-3">
+                        <h3 class="title">Samán Eventos</h3>
                         <p class="content ">Donec condimentum id erat a molestie. In luctus quis risus cursus faucibus. Pellentesque ornare dui cursus ex dictum, eget porttitor est iaculis. Quisque vehicula iaculis purus a egestas in tortor facilisis, congue nisi.</p>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
     <!-- seccion de mini galeria de  4 imagenes  -->
     <section class="section-facilities">
         <div class="text-center">
-            <h2 class="title">The Moon's Facilities</h2>
+            <h2 class="title">Nuestras Instalaciones</h2>
         </div>
         <div class="moon-divider"></div>
         <div class="container">
@@ -83,41 +83,41 @@
                 <div class="col-md-6">
                     <div class="col-sm-6">
                         <div class="content-box">
-                            <img src="images/facility-1.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-1">
+                            <img src="images/hotel.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-1" width="310" height="200">
                             <div class="tri-up"></div>
-                            <h3 class="title">SPA Treatments & Massage</h3>
-                            <p class="content">Nullam ultrices, urna nec malesuada aliquam, neque massa auctor metus, vulputate tristique enim nulla quis ante. Sed vel leo turpis. In in tortor fringilla, scelerisque quam eu, aliquet massa.lorem.</p>
+                            <h3 class="title">Excelente Ubicación</h3>
+                            <p class="content">Definir texto</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="content-box">
-                            <h3 class="title">Indoor Heated Pool</h3>
-                            <p class="content">Vivamus eros dolor, auctor aliquet dolor sit amet, euismod imperdiet ex. Nam sed nulla sed massa suscipit feugiat. Mauris et nunc ornare, placerat ex ac, interdum magna. Donec mollis tellus non sem pulvinar.</p>
+                            <h3 class="title">Ambiente Acogedor</h3>
+                            <p class="content">Definir texto</p>
                             <div class="tri-down"></div>
-                            <img src="images/facility-2.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-2">
+                            <img src="images/pasillo.jpg" width="310" height="200" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-2">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="col-sm-6">
                         <div class="content-box">
-                            <img src="images/facility-3.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-3">
+                            <img src="images/hab2.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-3">
                             <div class="tri-up"></div>
-                            <h3 class="title">Fitness Rooms</h3>
-                            <p class="content">Suspendisse euismod, neque faucibus dictum rutrum, ex dolor tempor dolor, ut egestas velit tellus quis erat. Curabitur vel elit a nibh fringilla maximus.</p>
+                            <h3 class="title">Habitación Cómoda</h3>
+                            <p class="content">Definir texto</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="content-box">
-                            <h3 class="title">Dedicated Events Planner</h3>
-                            <p class="content">Molestie condimentum tellus. Vivamus nec lectus congue, ultrices felis sit amet, dapibus augue. Cras fringilla efficitur elementum. Mauris ac consectetur nibh. Mauris tincidunt dolor justo, ac accumsan.</p>
+                            <h3 class="title">Habitaciones Múltiples</h3>
+                            <p class="content">Definir texto</p>
                             <div class="tri-down"></div>
-                            <img src="images/facility-4.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-4">
+                            <img src="images/hab1.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-4">
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 text-center">
-                    <a href="facilities.html" class="button transparent" >See All Facilities</a>
+                    <a href="facilities.html" class="button transparent" >Ver Más</a>
                 </div>
             </div>
         </div>
