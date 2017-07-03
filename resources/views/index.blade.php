@@ -20,7 +20,7 @@
                     </div>
                 </div>
                 <!-- Slide 02 -->
-                <div class="swiper-slide" style="background: url('images/home/slider-2.jpg') center top/cover no-repeat">
+                <div class="swiper-slide" style="background: url('images/home/slider-2.png') center top/cover no-repeat">
                     <div class="container">
                         <div class="slide-content">
                            <!-- <div class="slide-subtitle" data-animate="fadeInRight">BIENVENIDOS!</div>
@@ -48,24 +48,24 @@
         <div class="container">
             <div class="row">   
                 <div class="col-sm-4">
-                    <div class="content-box">
-                        <img src="images/home/restaurante.png" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-2">
+                    <div class="content-box"> 
+                        <a href="{{url('/restaurante')}}"> <img src="images/home/restaurante.png" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-2"></a>
                         <h3 class="title">Restaurante Las Tapas</h3>
-                        <p class="content">Vestibulum quis posuere ligula. Fusce in odio ac diam finibus tempus. Suspendisse potenti. Etiam accumsan purus magna, et viverra neque volutpat fermentum. Vivamus consequat, felis at aliquam elementum, massa sem.</p>
+                        <p class="content">Definir Texto</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="content-box ">
-                        <img src="images/home/polideportivo.png" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-1">
+                        <a href="{{url('/piscinas')}}"><img src="images/home/polideportivo.png" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-1"></a>
                         <h3 class="title">Piscinas Polideportivo</h3>
-                        <p class="content">Porttitor pharetra tortor in, consequat imperdiet nisi. Phasellus at quam tristique, cursus tellus vitae, convallis neque. Sed a lacinia sapien. Etiam dignissim sit amet felis ac sagittis pharetra sagittis ultrices.</p>
+                        <p class="content">Definir Texto</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="content-box">
-                        <img src="images/home/eventos.png" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-3">
+                        <a href="{{url('/eventos')}}"><img src="images/home/eventos.png" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-3"></a>
                         <h3 class="title">Samán Eventos</h3>
-                        <p class="content ">Donec condimentum id erat a molestie. In luctus quis risus cursus faucibus. Pellentesque ornare dui cursus ex dictum, eget porttitor est iaculis. Quisque vehicula iaculis purus a egestas in tortor facilisis, congue nisi.</p>
+                        <p class="content ">Definir Texto</p>
                     </div>
                 </div>
             </div>
@@ -117,49 +117,9 @@
                     </div>
                 </div>
                 <div class="col-xs-12 text-center">
-                    <a href="facilities.html" class="button transparent" >Ver Más</a>
+                    <a href="services.html" class="button transparent" >Ver Más</a>
                 </div>
             </div>
-        </div>
-    </section>
-
-
-   <!-- seccion testemonios para evaluar-->
-    <section class="section-testimonials bg-primary">
-        <div class="text-center">
-            <h2 class="title">Testimonial</h2>
-        </div>
-        <div class="moon-divider"></div>
-        <div class="container">
-            <div class="testimonial-slider swiper-container">
-                <div class="swiper-wrapper">
-                    <!-- Testimonial 01 -->
-                    <div class="swiper-slide">
-                        <div class="testimonial-box">
-                            <p class="text">Aliquam sodales facilisis dolor, feugiat elementum tellus condimentum at. Mauris sem nisi, dictum eget facilisis quis, placerat eu nisl. Phasellus consectetur pharetra elit id maximus. Aliquam facilisis sodales erat, sit amet euismod eros dignissim aliquam pulvinar metus.</p>
-                            <h4 class="name">Charles Coleman</h4>
-                            <div class="position">CEO of Pineapple</div>
-                        </div>
-                    </div>
-                    <!-- Testimonial 02 -->
-                    <div class="swiper-slide">
-                        <div class="testimonial-box">
-                            <p class="text">Aliquam sodales facilisis dolor, feugiat elementum tellus condimentum at. Mauris sem nisi, dictum eget facilisis quis, placerat eu nisl. Phasellus consectetur pharetra elit id maximus. Aliquam facilisis sodales erat, sit amet euismod eros dignissim aliquam pulvinar metus.</p>
-                            <h4 class="name">Charles Coleman</h4>
-                            <div class="position">CEO of Pineapple</div>
-                        </div>
-                    </div>
-                    <!-- Testimonial 03 -->
-                    <div class="swiper-slide">
-                        <div class="testimonial-box">
-                            <p class="text">Aliquam sodales facilisis dolor, feugiat elementum tellus condimentum at. Mauris sem nisi, dictum eget facilisis quis, placerat eu nisl. Phasellus consectetur pharetra elit id maximus. Aliquam facilisis sodales erat, sit amet euismod eros dignissim aliquam pulvinar metus.</p>
-                            <h4 class="name">Charles Coleman</h4>
-                            <div class="position">CEO of Pineapple</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-slider-page-controls"></div>
         </div>
     </section>
 
