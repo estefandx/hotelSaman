@@ -35,6 +35,14 @@
                     </div>
                 </div>
 
+                <div class="col-sm-4">
+                    <div class="content-box">
+                      <!--  <img src="images/home/why-moon-2.jpg" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-2">-->
+                        <h3 class="title">Nuestros Valores</h3>
+                        <p class="content">Para nuestro Hotel y personal el RESPETO y ATENCIÓN para nuestros clientes es primordial. Es por eso
+                            Que al hospedarse en nuestras instalaciones se sentirá como en casa</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -66,6 +74,8 @@
                                 discriminación de género o raza.
                             </p>
                         </div>
+
+
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -83,48 +93,5 @@
         </div>
     </section>
 
-    <section class="section-style-2 section-testimonials-2 ">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2 class="title" >Why Choose Us</h2>
-                    <div class="section-starter"></div>
-                    <div class="panel-group accordion">
-                        <div class="panel panel-default open">
-                            <div class="panel-heading">
-                                <h4 class="panel-title accordion-toggle"  >
-                                    <a href="#collapse1" data-toggle="collapse" data-parent="#accordion">A random option</a>
-                                </h4>
-                            </div>
-                            <div id="collapse1" class="panel-collapse collapse in">
-                                <div class="panel-body">Quisque placerat quis erat elementum laoreet. Donec tempor elit scelerisque libero consectetur, interdum convallis dui sagittis. Proin a magna maximus, congue elit egestas, tristique orci. Nullam quam arcu, egestas eget massa in, lobortis elementum enim. Aliquam suscipit nisi in dui commodo tristique. Sed mollis posuere sapien, vitae fringilla purus ornare vel.</div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title accordion-toggle"   >
-                                    <a href="#collapse2" data-toggle="collapse" data-parent="#accordion">This is how current state looks like</a>
-                                </h4>
-                            </div>
-                            <div id="collapse2" class="panel-collapse collapse">
-                                <div class="panel-body">Quisque placerat quis erat elementum laoreet. Donec tempor elit scelerisque libero consectetur, interdum convallis dui sagittis. Proin a magna maximus, congue elit egestas, tristique orci. Nullam quam arcu, egestas eget massa in, lobortis elementum enim. Aliquam suscipit nisi in dui commodo tristique. Sed mollis posuere sapien, vitae fringilla purus ornare vel. </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title accordion-toggle" >
-                                    <a href="#collapse3" data-toggle="collapse" data-parent="#accordion">Another option goes here</a>
-                                </h4>
-                            </div>
-                            <div id="collapse3" class="panel-collapse collapse">
-                                <div class="panel-body">Quisque placerat quis erat elementum laoreet. Donec tempor elit scelerisque libero consectetur, interdum convallis dui sagittis. Proin a magna maximus, congue elit egestas, tristique orci. Nullam quam arcu, egestas eget massa in, lobortis elementum enim. Aliquam suscipit nisi in dui commodo tristique. Sed mollis posuere sapien, vitae fringilla purus ornare vel. </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
 
 @endsection
