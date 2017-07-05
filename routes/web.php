@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Auth::routes();
+//Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
@@ -40,6 +40,7 @@ Route::get('/services', function () {
     return view('services');
 });
 
+<<<<<<< HEAD
 //NUEVAS RUTAS
 
 Route::get('/ingresar', function () {	//Bryan asumo que asi sera la ruta para el login
@@ -61,3 +62,25 @@ Route::get('/eventos', function () {	//Ruta para la vista eventos saman
 Route::get('/reglamento', function () {	//Ruta para el reglamento del hotel
   	return view('reglamento');
 });
+=======
+
+/*panel de administracion*/
+
+Route::get('/panel', function () {
+    return view('panel.panel');
+});
+
+
+Route::get('/panel', function () {
+    return view('panel.panel');
+});
+Route::get('/logeo', function () {
+    return view('auth.logeo');
+});
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+Route::get('/list', 'HomeController@listar');
+>>>>>>> origin/paneladmin
