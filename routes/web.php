@@ -39,3 +39,27 @@ Route::get('/gallerysingle', function () {
 Route::get('/services', function () {
     return view('services');
 });
+
+/*panel de administracion*/
+
+Route::get('/panel', function () {
+    return view('panel.panel');
+});
+
+
+Route::get('/panel', function () {
+    return view('panel.panel');
+});
+Route::get('/logeo', function () {
+    return view('auth.logeo');
+});
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+Route::get('/list', 'HomeController@listar');
+
+/*gestionar imagenes */
+Route::resource('foto', 'PhotoController');
+>>>>>>> origin/paneladmin
