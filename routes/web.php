@@ -61,3 +61,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 Route::get('/list', 'HomeController@listar');
+
+/*gestionar imagenes */
+Route::resource('foto', 'PhotoController');
