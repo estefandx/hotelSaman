@@ -54,7 +54,7 @@
                     <a href="{{url('/contact')}}">Contacto</a>
                 </li>
                 <li class="menu-item">
-                    <a href="{{url('/')}}">Ingresar</a>
+                    <a href="{{url('/logeo')}}">Ingresar</a>
                 </li>
             </ul>
         </nav>

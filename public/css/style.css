@@ -759,13 +759,13 @@ body.loading {
   font-family: 'Roboto', sans-serif;
   color: #202935;
   text-align: center;
-  margin-top: -100px;
+  margin-top: 70px;
 }
 #main-slider .swiper-container {
-  width: 100%;
+  width: 80%;
 }
 #main-slider .swiper-slide .container {
-  height: 750px;
+  height: 600px;
 }
 #main-slider.large-slider {
   margin-bottom: 95px;
@@ -827,7 +827,7 @@ body.loading {
   width: 55px;
   margin: 60px auto 0;
   position: absolute;
-  bottom: 125px;
+  bottom: -5px;
   opacity: 0;
   -webkit-transition: opacity 0.3s;
   -moz-transition: opacity 0.3s;
@@ -846,7 +846,7 @@ body.loading {
   float: left;
   width: 10px;
   height: 10px;
-  background-color: #fff;
+  background-color: #0A401F;
   border-radius: 0;
   box-sizing: content-box;
   opacity: 1 !important;
@@ -888,11 +888,11 @@ body.loading {
   line-height: 64px;
   font-size: 28px;
   text-align: center;
-  color: #fff;
+  color: #0A401F;
   top: 50%;
   margin-top: -60px;
   cursor: pointer;
-  border: 1px solid #fff;
+  border: 1px solid #0A401F;
   border-radius: 30px;
   opacity: 0;
   z-index: 211;
@@ -902,16 +902,16 @@ body.loading {
   transition: opacity 0.3s, background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 #main-slider .main-slider-control.prev {
-  left: 6.25%;
+  left: 4%;
   padding-right: 5px;
 }
 #main-slider .main-slider-control.next {
-  right: 6.25%;
+  right: 4%;
   padding-left: 5px;
 }
 #main-slider .main-slider-control:hover {
-  background-color: #202935;
-  border-color: #202935;
+  background-color: #0A401F;
+  border-color: #0A401F;
   color: #fff;
 }
 #main-slider:hover .main-slider-control,

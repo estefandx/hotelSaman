@@ -19,13 +19,14 @@ Route::get('/', function () {
 
 Route::get('/home', 'HomeController@index');
 
+
 //rutas  de la pagina
 Route::get('/about', function () {
     return view('about');
 });
 
 Route::get('/contact', function () {
-    return view('contact');
+    return view('about');
 });
 
 Route::get('/gallery', function () {
@@ -39,21 +40,6 @@ Route::get('/gallerysingle', function () {
 Route::get('/services', function () {
     return view('services');
 });
-
-//Rutas paginas de Negocios
-
-Route::get('/restaurante', function () {
-    return view('restaurante');
-});
-
-Route::get('/piscinas', function () {
-    return view('piscinas');
-});
-
-Route::get('/eventos', function () {
-    return view('eventos');
-});
-
 
 
 /*panel de administracion*/
@@ -70,11 +56,8 @@ Route::get('/logeo', function () {
     return view('auth.logeo');
 });
 
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 Route::get('/list', 'HomeController@listar');
-
-/*gestionar imagenes */
-Route::resource('foto', 'PhotoController');
-
