@@ -35,7 +35,7 @@
 
 <header >
     <div class="container">
-        <a href="{{url('/')}}"><img class="logo" src="images/logo.png" alt="Logo"></a>
+        <a href="{{url('/')}}"><img class="logo" src="images/logos/logo.png" alt="Logo"></a>
 
         <nav class="main-menu clearfix">
             <h2 class="hidden">Main Menu</h2>
@@ -82,7 +82,7 @@
                 <a href="{{url('/contact')}}">Contacto</a>
             </li>
             <li class="mobile-menu-item">
-                <a href="{{url('/')}}">Ingresar</a>
+                <a href="{{url('/logeo')}}">Ingresar</a>
             </li>
         </ul>
     </nav>

@@ -4,10 +4,7 @@
 @section('contenido')
 
     <section class="section-breadcrumb">
-        <h2 class="title" >Our Facilities</h2>
-        <div class="breadcrumb">
-            You are here: <span class="slug"><span class="home"> Home </span> <span class="page"> > Facilities</span></span>
-        </div>
+        <h2 class="title" >Nuestros Servicios</h2>
     </section>
 
     <section class="section-facilities">

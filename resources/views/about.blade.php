@@ -61,13 +61,13 @@
                                 economía en tantos países.  Trabajar de forma que se pueda sobrepasar las expectativas y necesidades de 
                                 nuestros clientes generando experiencias memorables, brindando el mejor servicio y fomentando en nuestro 
                                 equipo la cultura de mejora continua.  Somos conscientes que el desarrollo de nuestra actividad debe 
-                                realizarse respetando el medio ambiente, promoviendo programas y actividades que incentiven la conservación 
-                                y disminución del impacto del mismo en el entorno de nuestros destinos turísticos a través del respeto 
-                                a la fauna y flora.</p>
+                                realizarse respetando el medio ambiente</p>
                         </div>
                         <div class="col-sm-6">
                             <p class="content">
-                                Nuestros colaboradores, proveedores, clientes y huéspedes están comprometidos con el mantenimiento o mejora 
+                                promoviendo programas y actividades que incentiven la conservación 
+                                y disminución del impacto del mismo en el entorno de nuestros destinos turísticos a través del respeto 
+                                a la fauna y flora. Nuestros colaboradores, proveedores, clientes y huéspedes están comprometidos con el mantenimiento o mejora 
                                 de los impactos ambientales, socioculturales y económicos positivos y el manejo, minimización o eliminación 
                                 de aquellos impactos negativos generados, que se incluyen en los deberes y derechos en pro de la sostenibilidad.
                                 Estamos en contra de la explotación sexual comercial de niños, niñas y adolescentes (ESCNNA) y la 

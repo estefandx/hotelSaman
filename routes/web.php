@@ -40,6 +40,10 @@ Route::get('/services', function () {
     return view('services');
 });
 
+Route::get('/reglamento', function () {
+    return view('reglamento');
+});
+
 //Rutas paginas de Negocios
 
 Route::get('/restaurante', function () {
@@ -77,4 +81,4 @@ Route::get('/list', 'HomeController@listar');
 
 /*gestionar imagenes */
 Route::resource('foto', 'PhotoController');
-
+Route::resource('mail', 'MailController');
