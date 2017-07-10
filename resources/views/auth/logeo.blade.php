@@ -23,7 +23,6 @@
                     <button type="submit" >Ingresar</button>
                     <p class="message">REGRESAR PAGINA PRINCIPAL <a href="{{url('/')}}">REGRESAR</a></p>
                 </form>
-            </div>
         </div>
 
 
