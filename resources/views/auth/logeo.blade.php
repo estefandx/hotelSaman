@@ -23,7 +23,6 @@
                     <button type="submit" >login</button>
                     <!--<p class="message">No estas registrado? <a href="{{url('/register')}}">Registrarse</a></p>-->
                 </form>
-            </div>
         </div>
 
 
