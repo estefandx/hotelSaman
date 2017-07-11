@@ -67,25 +67,31 @@
     </div>
 
     <nav id="mobile-menu">
-            <h2 class="hidden">Mobile Navigation Menu</h2>
-            <ul>
-                <li class="mobile-menu-item">
-                    <a href="{{url('/')}}">Inicio</a>
-                </li>
-                <li class="mobile-menu-item">
-                    <a href="{{url('/about')}}">Quienes Somos</a>
-                </li>
-                <li class="mobile-menu-item">
-                    <a href="{{url('/services')}}">Servicios</a>
-                </li>
-                <li class="mobile-menu-item">
-                    <a href="{{url('/contact')}}">Contacto</a>
-                </li>
-                <li class="mobile-menu-item">
-                    <a href="{{url('/logeo')}}">Ingresar</a>
-                </li>
-            </ul>
-        </nav>
+        <h2 class="hidden">Mobile Navigation Menu</h2>
+        <ul>
+
+            <li class="mobile-menu-item">
+                <a class="menu-item" href="{{url('/')}}">Inicio</a>
+            </li>
+
+            <li class="mobile-menu-item">
+                <a class="menu-item" href="{{url('/about')}}">Quienes Somos</a>
+            </li>
+
+            <li class="mobile-menu-item">
+                <a class="menu-item" href="{{url('/services')}}">Servicios</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a class="menu-item" href="{{url('/contact')}}">Contacto</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a class="menu-item" href="{{url('/logeo')}}">Ingresar</a>
+            </li>
+        </ul>
+    </nav>
+
+
+
 </header>
 
 @yield('contenido')
