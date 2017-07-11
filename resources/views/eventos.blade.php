@@ -70,6 +70,11 @@
                     <div class="container">
                     </div>
                 </div>
+
+                <div class="swiper-slide" style="background: url('images/home/slider-2.png') center top/cover no-repeat">
+                    <div class="container">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="main-slider-control prev"><i class="icon-prev"></i></div>

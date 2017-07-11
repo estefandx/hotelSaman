@@ -81,10 +81,10 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-sm-6" >
-                            <img src="images/about/story-1.jpg" class="img-centered img-responsive" alt="story-1">
+                            <img src="images/otras/viterbo.jpg" class="img-centered img-responsive" alt="story-1">
                         </div>
                         <div class="col-sm-6">
-                            <img src="images/about/story-2.jpg"  class="img-centered img-responsive" alt="story-2">
+                            <img src="images/otras/entrada-viterbo.jpg"  class="img-centered img-responsive" alt="story-2">
                         </div>
                     </div>
                 </div>

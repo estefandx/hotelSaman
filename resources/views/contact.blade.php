@@ -54,7 +54,7 @@
                     </form>
                 </div>
                 <div class="col-md-6">
-                    <img src="images/contact-bg.jpg" class="img-centered img-responsive" alt="contact-bg">
+                    <img src="images/otras/reception.jpg" class="img-centered img-responsive" alt="contact-bg">
                 </div>
             </div>
         </div>

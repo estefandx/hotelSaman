@@ -316,7 +316,7 @@ header #mobile-menu .menu-item {
   -o-transition: color 0.3s;
   transition: color 0.3s;
   color: #fff;
-  font-size: 25px;
+  font-size: 15px;
 }
 header #mobile-menu .menu-item:hover {
   color: #beac5a;

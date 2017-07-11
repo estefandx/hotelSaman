@@ -51,21 +51,21 @@
                     <div class="content-box"> 
                         <a href="{{url('/restaurante')}}"> <img src="images/home/restaurante.png" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-2"></a>
                         <h3 class="title">Restaurante Las Tapas</h3>
-                        <p class="content">Definir Texto</p>
+                        <p class="content">Contamos con servicio de comida ejecutiva durante el día. En la noche, platos a la carta y comidas rápidas, Servicio a domicilio.</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="content-box ">
                         <a href="{{url('/piscinas')}}"><img src="images/home/polideportivo.png" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-1"></a>
                         <h3 class="title">Piscinas Polideportivo</h3>
-                        <p class="content">Definir Texto</p>
+                        <p class="content">Espectacular lugar para que pases un dia en familia y disfrutes de un ambiente agradable en piscina</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="content-box">
                         <a href="{{url('/eventos')}}"><img src="images/home/eventos.png" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-3"></a>
                         <h3 class="title">Samán Eventos</h3>
-                        <p class="content ">Definir Texto</p>
+                        <p class="content ">Servicio especial de eventos, nos encargamos y atendemos cualquier tipo de eventos. Hacemos de sus eventos los mejores.</p>
                     </div>
                 </div>
             </div>
@@ -86,13 +86,13 @@
                             <img src="images/home/hotel.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-1" width="310" height="200">
                             <div class="tri-up"></div>
                             <h3 class="title">Excelente Ubicación</h3>
-                            <p class="content">Definir texto</p>
+                            <p class="content">Estamos ubicados en uno de los mejores sectores de Viterbo, central y tranquilo, un lugar ideal para descansar.</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="content-box">
                             <h3 class="title">Ambiente Acogedor</h3>
-                            <p class="content">Definir texto</p>
+                            <p class="content">Nuestras instalaciones estan adecuadas para que usted y su familia se sientan como en casa en cada uno de los espacios que le brindamos.</p>
                             <div class="tri-down"></div>
                             <img src="images/home/pasillo.jpg" width="310" height="200" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-2">
                         </div>
@@ -104,13 +104,13 @@
                             <img src="images/home/hab2.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-3">
                             <div class="tri-up"></div>
                             <h3 class="title">Habitación Cómoda</h3>
-                            <p class="content">Definir texto</p>
+                            <p class="content">Nuestras habitaciones cuentan con todo para que este siempre comodo, ducha con agua caliente, tv, wifi y muy buena ventilación para que su descanso sea mejor.</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="content-box">
                             <h3 class="title">Habitaciones Múltiples</h3>
-                            <p class="content">Definir texto</p>
+                            <p class="content">Contamos con habitaciones múltiples desde parejas hasta grupos con espacios amplios a excelente costo y siempre con la mejor comodidad.</p>
                             <div class="tri-down"></div>
                             <img src="images/home/hab1.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-4">
                         </div>

@@ -46,7 +46,6 @@
                 <li class="menu-item">
                     <a href="{{url('/about')}}">Quienes Somos</a>
                 </li>
-
                 <li class="menu-item">
                     <a href="{{url('/services')}}">Servicios</a>
                 </li>
@@ -69,23 +68,29 @@
     <nav id="mobile-menu">
         <h2 class="hidden">Mobile Navigation Menu</h2>
         <ul>
+
             <li class="mobile-menu-item">
-                <a href="{{url('/')}}">Inicio</a>
+                <a class="menu-item" href="{{url('/')}}">Inicio</a>
+            </li>
+
+            <li class="mobile-menu-item">
+                <a class="menu-item" href="{{url('/about')}}">Quienes Somos</a>
+            </li>
+
+            <li class="mobile-menu-item">
+                <a class="menu-item" href="{{url('/services')}}">Servicios</a>
             </li>
             <li class="mobile-menu-item">
-                <a href="{{url('/about')}}">Quienes Somos</a>
+                <a class="menu-item" href="{{url('/contact')}}">Contacto</a>
             </li>
             <li class="mobile-menu-item">
-                <a href="{{url('/services')}}">Servicios</a>
-            </li>
-            <li class="mobile-menu-item">
-                <a href="{{url('/contact')}}">Contacto</a>
-            </li>
-            <li class="mobile-menu-item">
-                <a href="{{url('/logeo')}}">Ingresar</a>
+                <a class="menu-item" href="{{url('/logeo')}}">Ingresar</a>
             </li>
         </ul>
     </nav>
+
+
+
 </header>
 
 @yield('contenido')
@@ -113,8 +118,6 @@
                 <div class="social-links text-right">
                     <a class="social-link" href="#"><i class="fa fa-facebook"></i><i class="fa fa-facebook"></i></a>
                     <a class="social-link" href="#"><i class="fa fa-twitter"></i><i class="fa fa-twitter"></i></a>
-                    <a class="social-link" href="#"><i class="fa fa-google-plus"></i><i class="fa fa-google-plus"></i></a>
-                    <a class="social-link" href="#"><i class="fa fa-pinterest-p"></i><i class="fa fa-pinterest-p"></i></a>
                     <a class="social-link" href="#"><i class="fa fa-instagram"></i><i class="fa fa-instagram"></i></a>
                     <a class="social-link" href="#"><i class="fa fa-youtube"></i><i class="fa fa-youtube"></i></a>
                 </div>

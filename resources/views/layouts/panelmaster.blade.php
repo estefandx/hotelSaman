@@ -64,10 +64,10 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
                 <li>
-                    <a href="{{ url('/foto/create') }}"><i class="fa fa-fw fa-dashboard"></i> Añadir Imagenes</a>
+                    <a href="{{ url('/foto/create') }}"><i class="fa fa-fw fa-plus"></i> Añadir Imagenes</a>
                 </li>
                 <li>
-                    <a href="{{ url('/') }}"><i class="fa fa-fw fa-table"></i> Eliminar Imagenes</a>
+                    <a href="{{ url('/') }}"><i class="fa fa-fw fa-trash"></i> Eliminar Imagenes</a>
                 </li>
             </ul>
         </div>
