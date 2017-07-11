@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>Administración Hotel El Samán Viterbo</title>
-
+    <link rel="icon" type="image/png" href="/images/logos/favicon.png" />
     <link  type='text/css'  rel="stylesheet" href="{{asset('bootstrap/css/bootstrap.min.css')}}">
     <link  type='text/css'  rel="stylesheet" href="{{asset('css/panel/sb-admin.css')}}">
     <link  type='text/css'  rel="stylesheet" href="{{asset('font-awesome/css/font-awesome.min.css')}}">
