@@ -83,7 +83,7 @@
                 <div class="col-md-6">
                     <div class="col-sm-6">
                         <div class="content-box">
-                            <img src="images/hotel.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-1" width="310" height="200">
+                            <img src="images/home/hotel.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-1" width="310" height="200">
                             <div class="tri-up"></div>
                             <h3 class="title">Excelente Ubicación</h3>
                             <p class="content">Definir texto</p>
@@ -94,14 +94,14 @@
                             <h3 class="title">Ambiente Acogedor</h3>
                             <p class="content">Definir texto</p>
                             <div class="tri-down"></div>
-                            <img src="images/pasillo.jpg" width="310" height="200" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-2">
+                            <img src="images/home/pasillo.jpg" width="310" height="200" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-2">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="col-sm-6">
                         <div class="content-box">
-                            <img src="images/hab2.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-3">
+                            <img src="images/home/hab2.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-3">
                             <div class="tri-up"></div>
                             <h3 class="title">Habitación Cómoda</h3>
                             <p class="content">Definir texto</p>
@@ -112,12 +112,12 @@
                             <h3 class="title">Habitaciones Múltiples</h3>
                             <p class="content">Definir texto</p>
                             <div class="tri-down"></div>
-                            <img src="images/hab1.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-4">
+                            <img src="images/home/hab1.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-4">
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 text-center">
-                    <a href="services.html" class="button transparent" >Ver Más</a>
+                    <a href="{{url('/services')}}" class="button transparent">Ver Más</a>
                 </div>
             </div>
         </div>

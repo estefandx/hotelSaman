@@ -1369,6 +1369,13 @@ section.section-style-2 {
   position: relative;
   background-color: #0a401f;
   font-family: 'Playfair Display', serif;
+    background: -webkit-linear-gradient(top, #ffffff, #0a401f);
+    background: -moz-linear-gradient(top, #ffffff, #0a401f);
+    background: -o-linear-gradient(top, #ffffff, #0a401f);
+    background: linear-gradient(to bottom, #ffffff, #0a401f);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .section-breadcrumb:before {
   content: '';
@@ -2442,6 +2449,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
 .section-contact-us .office-box .address-line i {
   margin-right: 5px;
   margin-left: -20px;
+  margin-top: -200px;
 }
 .section-contact-us .map-wrapper {
   min-height: 400px;
@@ -2532,11 +2540,11 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
 [4. Footer]
 --------------------------------------------------------------------*/
 footer {
-  padding-top: 100px;
+  padding-top: 10px;
   padding-bottom: 0px;
-  background-color: #0A401F;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
+  background-color: #0a401f;
 }
 footer .subtitle {
   color: #fff;

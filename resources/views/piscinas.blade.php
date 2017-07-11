@@ -14,7 +14,7 @@
     <link  type='text/css'  rel="stylesheet" href="{{asset('bootstrap/css/bootstrap.min.css')}}">
     <link  type='text/css'  rel="stylesheet" href="{{asset('css/animate.css')}}">
     <link  type='text/css'  rel="stylesheet" href="{{asset('css/swiper.min.css')}}">
-    <link  type='text/css'  rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link  type='text/css'  rel="stylesheet" href="{{asset('css/stylepiscina.css')}}">
 
     <title> @yield('titulo')</title>
 </head>
@@ -28,13 +28,10 @@
 <!--encabezado-->
 <header >
     <div class="container">
-        <a href="#" class="logo-link"><img class="logo" src="images/piscinas-logo.png" alt="Logo"></a>
+        <a href="#" class="logo-link"><img class="logo" src="images/logos/piscinas-logo.png" alt="Logo"></a>
         <nav class="main-menu clearfix">
             <h2 class="hidden">Main Menu</h2>
             <ul>
-                <li class="menu-item">
-                    <a href="{{url('/piscinas')}}">Inicio</a>
-                </li>
                 <li class="menu-item">
                     <a href="{{url('/')}}">Regresar a la Pagina Principal</a>
                 </li>
@@ -50,9 +47,6 @@
     <nav id="mobile-menu">
         <h2 class="hidden">Mobile Navigation Menu</h2>
         <ul>
-            <li class="mobile-menu-item">
-                <a class="menu-item" href="#">Inicio<i class="toggle-state-icon icon-angle-right"></i></a>
-            </li>
             <li class="mobile-menu-item">
                 <a href="{{url('/')}}">Regresar a la Pagina Principal</a>
             </li>
