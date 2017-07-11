@@ -6,6 +6,7 @@
     <meta name="author" content="Theme-Paradise" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+    <link rel="icon" type="image/png" href="/images/logos/favicon.png" />
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
