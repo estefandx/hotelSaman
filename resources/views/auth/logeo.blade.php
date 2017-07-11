@@ -2,6 +2,7 @@
 <html dir="ltr" lang="es">
 <head>
     <link  type='text/css'  rel="stylesheet" href="{{asset('css/login/login.css')}}">
+    <link rel="icon" type="image/png" href="/images/logos/favicon.png" />
 </head>
     <body>
         <div class="login-page">
