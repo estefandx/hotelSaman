@@ -225,3 +225,10 @@ ul.alert-dropdown {
 .panel-yellow > a:hover {
     color: #df8a13;
 }
+
+.well-sm {
+  width: 80%;
+  padding: 9px;
+  border-radius: 3px;
+}
+

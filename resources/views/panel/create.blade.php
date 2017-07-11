@@ -22,16 +22,13 @@
                         {{ csrf_field() }}
                         <fieldset>
                             <legend class="text-center header">Agregar foto</legend>
-
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                                 <div class="col-md-8">
-
                                     <select class="form-control" id="seccion" name="seccion">
-                                        <option value="prueba">1</option>
-                                        <option value="prueba">1</option>
-                                        <option value="prueba">1</option>
-                                        <option value="prueba">1</option>
+                                        <option value="prueba">Pagina Restaurante Las Tapas</option>
+                                        <option value="prueba">Piscinas Polideportivo</option>
+                                        <option value="prueba">Eventos Samán</option>
                                     </select>
                                 </div>
                             </div>
