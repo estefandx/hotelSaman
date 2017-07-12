@@ -75,8 +75,14 @@ header .main-menu .menu-item > a {
   letter-spacing: 0.5px;
 }
 header .main-menu .menu-item > a:hover {
-  background-color: #0A401F;
   color: #ffffff;
+    background: -webkit-linear-gradient(top, #A9E7FE, #058CCC);
+    background: -moz-linear-gradient(top, #A9E7FE, #058CCC);
+    background: -o-linear-gradient(top, #A9E7FE, #058CCC);
+    background: linear-gradient(to bottom, #A9E7FE, #058CCC);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 header .main-menu .menu-item:hover .submenu {
   visibility: visible;
@@ -848,7 +854,7 @@ body.loading {
   float: left;
   width: 10px;
   height: 10px;
-  background-color: #0A401F;
+  background-color: #058CCC;
   border-radius: 0;
   box-sizing: content-box;
   opacity: 1 !important;
@@ -890,11 +896,11 @@ body.loading {
   line-height: 64px;
   font-size: 28px;
   text-align: center;
-  color: #0A401F;
+  color: #058CCC;
   top: 50%;
   margin-top: -60px;
   cursor: pointer;
-  border: 1px solid #0A401F;
+  border: 1px solid #058CCC;
   border-radius: 30px;
   opacity: 0;
   z-index: 211;
@@ -912,8 +918,8 @@ body.loading {
   padding-left: 5px;
 }
 #main-slider .main-slider-control:hover {
-  background-color: #0A401F;
-  border-color: #0A401F;
+  background-color: #058CCC;
+  border-color: #058CCC;
   color: #fff;
 }
 #main-slider:hover .main-slider-control,
@@ -1367,8 +1373,15 @@ section.section-style-2 {
   padding: 90px 0;
   text-align: center;
   position: relative;
-  background-color: #0a401f;
+  background-color: #058CCC;
   font-family: 'Playfair Display', serif;
+  background: -webkit-linear-gradient(top, #A9E7FE, #058CCC);
+  background: -moz-linear-gradient(top, #A9E7FE, #058CCC);
+  background: -o-linear-gradient(top, #A9E7FE, #058CCC);
+  background: linear-gradient(to bottom, #A9E7FE, #058CCC);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .section-breadcrumb:before {
   content: '';
@@ -2532,14 +2545,14 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
 [4. Footer]
 --------------------------------------------------------------------*/
 footer {
-  padding-top: 100px;
+  padding-top: 10px;
   padding-bottom: 0px;
-  background-color: #0A401F;
-  color: #ffffff;
+  background-image: url('../images/piscina/footpiscina.png');
+  color: #000000;
   font-family: 'Roboto', sans-serif;
 }
 footer .subtitle {
-  color: #fff;
+  color: #000000;
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   font-size: 18px;
@@ -2563,7 +2576,7 @@ footer ul.site-links li:before {
   margin-right: 15px;
 }
 footer a {
-  color: #ffffff;
+  color: #000000;
 }
 footer a:hover {
   color: #fff;
