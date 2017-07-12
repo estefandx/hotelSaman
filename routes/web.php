@@ -81,4 +81,4 @@ Route::get('/list', 'HomeController@listar');
 
 /*gestionar imagenes */
 Route::resource('foto', 'PhotoController');
-Route::resource('mail', 'MailController');
+Route::resource('mail', 'MailController@store');

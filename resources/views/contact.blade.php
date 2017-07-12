@@ -49,19 +49,19 @@
                         </div>
                         <div class="form-group">
                             <label class="control-label" >Nombre *</label>
-                            <input type="text" class="form-control" id="nombre">
+                            <input type="text" class="form-control" id="nombre" name="nombre">
                         </div>
                         <div class="form-group">
                             <label class="control-label">Email *</label>
-                            <input type="text" class="form-control" id="mail">
+                            <input type="text" class="form-control" id="mail" name="mail">
                         </div>
                         <div class="form-group">
                             <label class="control-label">Número Telefónico *</label>
-                            <input type="text" class="form-control" id="numero">
+                            <input type="text" class="form-control" id="numero" name="numero">
                         </div>
                         <div class="form-group">
                             <label class="control-label">Mensaje</label>
-                            <textarea class="form-control" id="mensaje"></textarea>
+                            <textarea class="form-control" id="mensaje" name="mensaje"></textarea>
                         </div>
                         <button class="button secondary transparent">Enviar</button>
                     </form>
