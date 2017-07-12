@@ -37,18 +37,31 @@
                 <div class="col-md-6">
                     <h3 class="title" >¡Escríbenos!</h3>
                     <div class="section-starter"></div>
-                    <form class="contact-form">
+                    <form class="contact-form" role="form" method="POST" action="{{url('/mail')}}" enctype="multipart/form-data">
+                        {{ csrf_field() }}
+                        <div class="form-group">
+                            <label class="control-label" >Motivo de Consulta *</label>
+                            <select class="form-control" id="seccion" name="seccion">
+                            <option value="Reserva">Solicitud de Reserva</option>
+                            <option value="Comentarios">Comentarios</option>
+                            <option value="Eventos">Información Eventos</option>
+                        </select>
+                        </div>
                         <div class="form-group">
                             <label class="control-label" >Nombre *</label>
-                            <input type="text" class="form-control" >
+                            <input type="text" class="form-control" id="nombre">
                         </div>
                         <div class="form-group">
                             <label class="control-label">Email *</label>
-                            <input type="text" class="form-control" >
+                            <input type="text" class="form-control" id="mail">
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Número Telefónico *</label>
+                            <input type="text" class="form-control" id="numero">
                         </div>
                         <div class="form-group">
                             <label class="control-label">Mensaje</label>
-                            <textarea class="form-control" ></textarea>
+                            <textarea class="form-control" id="mensaje"></textarea>
                         </div>
                         <button class="button secondary transparent">Enviar</button>
                     </form>
