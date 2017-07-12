@@ -17,8 +17,7 @@
             <div class="row" align="center">
                 <div class="col-sm-4">
                     <div class="content-box ">
-                        <!--<img src="images/home/why-moon-1.jpg" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-1">-->
-                        <h3 class="title">Misión</h3>
+                        <img src="images/otras/mision.png" class="img-centered img-responsive" data-animate="fadeIn" alt="misionsaman">
                         <p class="content">Para el HOTEL EL SAMÁN es un compromiso con nuestros huéspedes 
                             satisfacer a plenitud  sus expectativas con criterios de eficiencia, calidad y 
                             seguridad y mediante una óptima tecnología y recurso humano calificado a su servicio 
@@ -27,8 +26,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="content-box">
-                      <!--  <img src="images/home/why-moon-2.jpg" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-2">-->
-                        <h3 class="title">Visión</h3>
+                      <img src="images/otras/vision.png" class="img-centered img-responsive" data-animate="fadeIn" alt="visionsaman">
                         <p class="content">Consolidar el HOTEL EL SAMAN como el mejor de la región, velando siempre por una 
                             excelencia en servicio y trabajando cada día por el mejoramiento de la calidad de vida de sus 
                             huéspedes y su área de influencia.</p>
@@ -37,8 +35,7 @@
 
                 <div class="col-sm-4">
                     <div class="content-box">
-                      <!--  <img src="images/home/why-moon-2.jpg" class="img-centered img-responsive" data-animate="fadeIn" alt="why-moon-2">-->
-                        <h3 class="title">Nuestros Valores</h3>
+                      <img src="images/otras/valores.png" class="img-centered img-responsive" data-animate="fadeIn" alt="valoressaman">
                         <p class="content">Para nuestro Hotel y personal el RESPETO y ATENCIÓN para nuestros clientes es primordial. Es por eso
                             Que al hospedarse en nuestras instalaciones se sentirá como en casa</p>
                     </div>
