@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Photo;
 
 class HomeController extends Controller
 {
@@ -28,6 +29,8 @@ class HomeController extends Controller
 
     public function listar()
     {
-        return view('contenido.list');
+        $photos = Photo::paginate(2);
+        return view('panel.list',compact('photos'));
+
     }
 }

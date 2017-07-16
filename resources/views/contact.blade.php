@@ -11,6 +11,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
+                    @if(Session::has('message'))
+                        <p class="alert alert-success" role="alert" style="font-size: 18px">Correo enviado pronto te contactaremos!</p>
+                    @endif
                     <div class="map-wrapper">
                         <div class="map">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.9420340929587!2d-75.87373969697343!3d5.061348794080337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e47853723ddca91%3A0x4353051771308e8!2sCra.+9+%238-51%2C+Viterbo%2C+Caldas%2C+Colombia!5e0!3m2!1ses!2ses!4v1499063629639" style="border:0;height: 100%;"></iframe>
@@ -39,6 +42,7 @@
                     <div class="section-starter"></div>
                     <form class="contact-form" role="form" method="POST" action="{{url('/mail')}}" enctype="multipart/form-data">
                         {{ csrf_field() }}
+
                         <div class="form-group">
                             <label class="control-label" >Motivo de Consulta *</label>
                             <select class="form-control" id="seccion" name="seccion">

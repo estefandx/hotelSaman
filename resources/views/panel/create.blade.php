@@ -26,9 +26,9 @@
                                 <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                                 <div class="col-md-8">
                                     <select class="form-control" id="seccion" name="seccion">
-                                        <option value="prueba">Pagina Restaurante Las Tapas</option>
-                                        <option value="prueba">Piscinas Polideportivo</option>
-                                        <option value="prueba">Eventos Samán</option>
+                                        <option value="restaurante">Pagina Restaurante Las Tapas</option>
+                                        <option value="piscinas">Piscinas Polideportivo</option>
+                                        <option value="saman">Eventos Samán</option>
                                     </select>
                                 </div>
                             </div>

@@ -67,7 +67,7 @@
                     <a href="{{ url('/foto/create') }}"><i class="fa fa-fw fa-plus"></i> Añadir Imagenes</a>
                 </li>
                 <li>
-                    <a href="{{ url('/') }}"><i class="fa fa-fw fa-trash"></i> Eliminar Imagenes</a>
+                    <a href="{{ url('/list') }}"><i class="fa fa-fw fa-trash"></i> Eliminar Imagenes</a>
                 </li>
             </ul>
         </div>

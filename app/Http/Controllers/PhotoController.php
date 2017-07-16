@@ -38,7 +38,7 @@ class PhotoController extends Controller
      */
     public function store(Request $request)
     {
-        $file = Input::file('imagen');
+        $file = Input::file('fotos');
         $aleatorio = str_random(10);
         $nombre = $aleatorio . $file->getClientOriginalName();
         //$file->move('peliculas',$nombre);
@@ -96,6 +96,9 @@ class PhotoController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $photo = Photo::find($id);
+        \Storage::delete($photo->nombre);
+        $photo->delete();
+        return redirect('/list');
     }
 }
