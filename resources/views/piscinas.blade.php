@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="Theme-Paradise" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+    <link rel="icon" type="image/png" href="/images/logos/favicon.png" />
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
@@ -61,15 +61,11 @@
             <h2 class="hidden">Main Slider</h2>
             <div class="swiper-wrapper">
                 @foreach( $photoPiscinas as $photo)
-                    <div class="swiper-slide" style="background: url('fotos/{{$photo->nombre}}') center top/cover no-repeat">
-                        <div class="container">
-                            <div class="slide-content">
-
-
-
-                            </div>
-                        </div>
+                <div class="swiper-slide" style="background: url('fotos/{{$photo->nombre}}') center top/cover no-repeat">
+                    <div class="container">
+                        <div class="slide-content"></div>
                     </div>
+                </div>
                 @endforeach
             </div>
         </div>
@@ -83,13 +79,17 @@
 
 <!--servicios-->
 <section class="section-breadcrumb">
-        <h2 class="title" >Servicios</h2>
+        <h2 class="title" >Conócenos</h2>
     </section>
 
 <section class="section-style-2">
         <div class="container">
             <p class="content">
-				Campo para texto
+				Somos el sitio ideal que necesitas para pasar el mejor día de diversión y dispersión. En 
+                <strong>Polideportivo Piscinas y Restaurante</strong> puedes disfrutar del clima de Viterbo en una piscina familiar y rodeados de un
+                ambiente natural y tranquilo donde respiras aire puro, ademas contamos con servicio de restaurante asi 
+                que encontrarás todo en un solo lugar. Disfruta de nuestras instalaciones cuidadas y siempre disponibles
+                para ti.
             </p>
         </div>
     </section>
