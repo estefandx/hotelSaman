@@ -60,16 +60,17 @@
         <div class="swiper-container">
             <h2 class="hidden">Main Slider</h2>
             <div class="swiper-wrapper">
-                <!-- Slide 01 -->
-                <div class="swiper-slide" style="background: url('images/home/slider-1.jpg') center top/cover no-repeat">
-                    <div class="container">
+                @foreach( $photoRestaurante as $photo)
+                    <div class="swiper-slide" style="background: url('fotos/{{$photo->nombre}}') center top/cover no-repeat">
+                        <div class="container">
+                            <div class="slide-content">
+
+
+
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <!-- Slide 02 -->
-                <div class="swiper-slide" style="background: url('images/home/slider-2.png') center top/cover no-repeat">
-                    <div class="container">
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
         <div class="main-slider-control prev"><i class="icon-prev"></i></div>

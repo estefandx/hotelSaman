@@ -21,6 +21,9 @@
                     <form class="form-horizontal"role="form"  method="POST" action="{{ url('/foto') }}" enctype="multipart/form-data">
                         {{ csrf_field() }}
                         <fieldset>
+                            @if(Session::has('message'))
+                                <p class="alert alert-success" role="alert" style="font-size: 18px">Imagen agregada correctamente</p>
+                            @endif
                             <legend class="text-center header">Agregar foto</legend>
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
@@ -28,7 +31,8 @@
                                     <select class="form-control" id="seccion" name="seccion">
                                         <option value="restaurante">Pagina Restaurante Las Tapas</option>
                                         <option value="piscinas">Piscinas Polideportivo</option>
-                                        <option value="saman">Eventos Samán</option>
+                                        <option value="hotel-saman">Hotel  Samán</option>
+                                        <option value="eventos-saman">Eventos Samán</option>
                                     </select>
                                 </div>
                             </div>
@@ -36,10 +40,11 @@
                                 <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-file bigicon"></i></span>
                                 <div class="col-md-8">
                                     <div class="form-group">
-                                        <input type="file" class="btn btn-default" id="imagen" name="imagen">
+                                        <input type="file" class="btn btn-default" id="imagen" name="imagen" required>
                                     </div>
                                 </div>
                             </div>
+
 
 
 
@@ -52,6 +57,7 @@
                                 <div class="col-md-12 text-center">
                                     <button type="submit" class="btn btn-primary btn-lg">Registrar</button>
                                 </div>
+
                             </div>
                         </fieldset>
                     </form>

@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/','SeccionController@index');
 
 //Auth::routes();
 
@@ -46,17 +44,13 @@ Route::get('/reglamento', function () {
 
 //Rutas paginas de Negocios
 
-Route::get('/restaurante', function () {
-    return view('restaurante');
-});
+Route::get('/restaurante','SeccionController@restaurante');
 
-Route::get('/piscinas', function () {
-    return view('piscinas');
-});
+Route::get('/piscinas','SeccionController@piscina');
 
-Route::get('/eventos', function () {
-    return view('eventos');
-});
+
+Route::get('/eventos','SeccionController@eventos');
+
 
 
 

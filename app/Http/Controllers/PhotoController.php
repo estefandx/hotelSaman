@@ -17,7 +17,7 @@ class PhotoController extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**
@@ -38,7 +38,7 @@ class PhotoController extends Controller
      */
     public function store(Request $request)
     {
-        $file = Input::file('fotos');
+        $file = Input::file('imagen');
         $aleatorio = str_random(10);
         $nombre = $aleatorio . $file->getClientOriginalName();
         //$file->move('peliculas',$nombre);
@@ -51,7 +51,9 @@ class PhotoController extends Controller
 
         ]);
 
-        return redirect('/foto/create');
+        Session::flash('message','Imagen agregada en la sección');
+       // return Redirect::to('/contact');
+       return redirect('/foto/create');
     }
 
     /**
