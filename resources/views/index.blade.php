@@ -101,10 +101,10 @@
                 <div class="col-md-6">
                     <div class="col-sm-6">
                         <div class="content-box">
-                            <img src="images/home/hab2.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-3">
+                            <img src="images/home/panel.png" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-2">
                             <div class="tri-up"></div>
-                            <h3 class="title">Habitación Cómoda</h3>
-                            <p class="content">Nuestras habitaciones cuentan con todo para que este siempre comodo, ducha con agua caliente, tv, wifi y muy buena ventilación para que su descanso sea mejor.</p>
+                            <h3 class="title">Cuidamos el Medio Ambiente</h3>
+                            <p class="content">Nuestro principal compromiso es CUIDAR el Medio Ambiente, es por eso que en nuestro hotel el servicio de agua caliente se brinda por medio de energia generada por PANELES SOLARES.</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
