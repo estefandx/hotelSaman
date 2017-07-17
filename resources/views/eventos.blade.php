@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="Theme-Paradise" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+    <link rel="icon" type="image/png" href="/images/logos/favicon.png" />
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
@@ -61,15 +61,11 @@
             <h2 class="hidden">Main Slider</h2>
             <div class="swiper-wrapper">
                 @foreach( $photoEventos as $photo)
-                    <div class="swiper-slide" style="background: url('fotos/{{$photo->nombre}}') center top/cover no-repeat">
-                        <div class="container">
-                            <div class="slide-content">
-
-
-
-                            </div>
-                        </div>
+                <div class="swiper-slide" style="background: url('fotos/{{$photo->nombre}}') center top/cover no-repeat">
+                    <div class="container">
+                        <div class="slide-content"></div>
                     </div>
+                </div>
                 @endforeach
             </div>
         </div>
@@ -83,12 +79,16 @@
 
 <!--servicios-->
 <section class="section-breadcrumb">
-        <h2 class="title" >Servicios</h2>
+        <h2 class="title" >Conócenos</h2>
     </section>
 
 <section class="section-style-2">
         <div class="container">
-            <p class="content">
+            <p class="content"> En Eventos Samán nuestro principal objetivo de hacer que tus eventos, reuniones y banquetes
+                sean los mejores, ÚNICOS. Contamos con un equipo capacitado en decoración para fiestas, eventos emrpesariales
+                y tenemos un amplio servicio de restaurante brindandole múltiples opciones. Tenemos amplios paquetes para que
+                sus invitados reciban la mejor atención y la mejor impresión. Llamenos y reciba mas informaci+on acerca del evento
+                que quiere realizar. Nosotros nos encargamos de todo!.
             </p>
         </div>
     </section>
