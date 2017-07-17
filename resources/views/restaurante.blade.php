@@ -88,38 +88,11 @@
 <section class="section-style-2">
         <div class="container">
             <p class="content">
-				Campo para texto
+                Restaurante las Tapas le brinda a todos sus clientes los mejores platos de la región,
+                siempre pensamos en loq eu ustedes quieren y les brindamos nuestra mejor disposición y servicio
+                para que se sienta como en casa, contamos con servicio a la carta y servicio a domiclio. 
+                Conócenos y deleitate con el mejor sabor en nuestros platos.
             </p>
-        </div>
-    </section>
-
-<!--Mision y vision-->
-<section class="section-breadcrumb">
-        <h2 class="title" >Acerca de Nosotros</h2>
-    </section>
-
-    <section class="section-style-2 section-why-us section-bg-white">
-        <div class="container">
-            <div class="row" align="center">
-                <div class="col-sm-4">
-                    <div class="content-box ">
-                        <h3 class="title">Misión</h3>
-                        <p class="content">Campo para texto</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="content-box">
-                        <h3 class="title">Visión</h3>
-                        <p class="content">Campo para texto</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="content-box">
-                        <h3 class="title">Nuestros Valores</h3>
-                        <p class="content">Campo para texto</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -132,7 +105,7 @@
                 <div class="col-md-6">
                     <div class="map-wrapper">
                         <div class="map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.9420340929587!2d-75.87373969697343!3d5.061348794080337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e47853723ddca91%3A0x4353051771308e8!2sCra.+9+%238-51%2C+Viterbo%2C+Caldas%2C+Colombia!5e0!3m2!1ses!2ses!4v1499063629639" style="border:0;height: 100%;"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1405.114064688906!2d-75.87282876952497!3d5.061106405040063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e47853723ddca91%3A0xe884b4a6d9a887b8!2sCra.+9+%238-69%2C+Viterbo%2C+Caldas%2C+Colombia!5e0!3m2!1ses!2ses!4v1500250965017" style="border:0;height: 100%;"></iframe>
                         </div>
                     </div>
                 </div>
@@ -144,10 +117,10 @@
                         <div class="col-sm-6 office-box" >
                             <h4 class="subtitle">Viterbo - Caldas</h4>
                             <div class="address-line"><i class="fa fa-map-marker"></i>Carrera 9 # 8 -69 Esquina, Viterbo</div>
+                            <div class="address-line"><i class="fa fa-user"></i>Claudia Patricia Hoyos Toro</div>
                             <div class="address-line"><i class="fa fa-phone"></i>869 1656</div>
-                            <div class="address-line"><i class="fa fa-phone"></i>(+57)3116171030 – (+57)3216455518</div>
+                            <div class="address-line"><i class="fa fa-phone"></i>(+57)311 617 1030 – (+57)321 645 5518</div>
                             <div class="address-line"><i class="fa fa-envelope"></i>samaneventos@hotmail.com</div>
-                            <div class="address-line"><i class="fa fa-globe"></i>definir</div>
                         </div>
                     </div>
                 </div>
