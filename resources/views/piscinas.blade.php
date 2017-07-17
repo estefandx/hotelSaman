@@ -93,36 +93,6 @@
         </div>
     </section>
 
-<!--Mision y vision-->
-<section class="section-breadcrumb">
-        <h2 class="title" >Acerca de Nosotros</h2>
-    </section>
-
-    <section class="section-style-2 section-why-us section-bg-white">
-        <div class="container">
-            <div class="row" align="center">
-                <div class="col-sm-4">
-                    <div class="content-box ">
-                        <h3 class="title">Misión</h3>
-                        <p class="content">Campo para texto</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="content-box">
-                        <h3 class="title">Visión</h3>
-                        <p class="content">Campo para texto</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="content-box">
-                        <h3 class="title">Nuestros Valores</h3>
-                        <p class="content">Campo para texto</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 <!--Footer y contacto--> 
 
  <section class="section-style-2 section-contact-us">
@@ -143,10 +113,10 @@
                         <div class="col-sm-6 office-box" >
                             <h4 class="subtitle">Viterbo - Caldas</h4>
                             <div class="address-line"><i class="fa fa-map-marker"></i>500 metros Via Viterbo - Canaan</div>
+                            <div class="address-line"><i class="fa fa-user"></i>Luis Bernardo Yepes Muñoz</div>
                             <div class="address-line"><i class="fa fa-phone"></i>869 4890</div>
                             <div class="address-line"><i class="fa fa-phone"></i>(+57)321 645 5518 – (+57)311 617 1030</div>
                             <div class="address-line"><i class="fa fa-envelope"></i>samaneventos@hotmail.com</div>
-                            <div class="address-line"><i class="fa fa-globe"></i>definir</div>
                         </div>
                     </div>
                 </div>
