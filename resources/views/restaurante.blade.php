@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="Theme-Paradise" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+    <link rel="icon" type="image/png" href="/images/logos/favicon.png" />
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
@@ -61,15 +61,11 @@
             <h2 class="hidden">Main Slider</h2>
             <div class="swiper-wrapper">
                 @foreach( $photoRestaurante as $photo)
-                    <div class="swiper-slide" style="background: url('fotos/{{$photo->nombre}}') center top/cover no-repeat">
-                        <div class="container">
-                            <div class="slide-content">
-
-
-
-                            </div>
-                        </div>
+                <div class="swiper-slide" style="background: url('fotos/{{$photo->nombre}}') center top/cover no-repeat">
+                    <div class="container">
+                        <div class="slide-content"></div>
                     </div>
+                </div>
                 @endforeach
             </div>
         </div>
@@ -83,16 +79,17 @@
 
 <!--servicios-->
 <section class="section-breadcrumb">
-        <h2 class="title" >Servicios</h2>
+        <h2 class="title" >Conócenos</h2>
     </section>
 
 <section class="section-style-2">
         <div class="container">
             <p class="content">
-                Restaurante las Tapas le brinda a todos sus clientes los mejores platos de la región,
-                siempre pensamos en loq eu ustedes quieren y les brindamos nuestra mejor disposición y servicio
-                para que se sienta como en casa, contamos con servicio a la carta y servicio a domiclio. 
-                Conócenos y deleitate con el mejor sabor en nuestros platos.
+                En el Restaurante las Tapas te brindamos a ti y a toda tu familia y a amigos los mejores platos de la región,
+                siempre pensamos en lo que quieren y brindamos nuestra mejor disposición y servicio
+                para que se sientan como en casa, contamos con servicio a la carta, parrila y bar. Todo lo encuentras
+                en un solo lugar, ademas contamos con servicio a domiclio.<br> <br>
+                Conócenos y deleitate con el mejor sabor de nuestros platos.
             </p>
         </div>
     </section>
