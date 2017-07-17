@@ -660,7 +660,7 @@ body.loading {
 }
 .content {
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: #202935;
   letter-spacing: -0.2px;
@@ -1497,7 +1497,8 @@ section.section-style-2 {
   color: #fff;
   font-weight: 400;
 }
-.section-accommodations .rooms-thumb-area .room-thumb-box .room-meta-box .content {
+.section-accommodations .rooms-thumb-area .room-thumb-box .room-meta-box 
+ {
   color: #fff;
   margin-top: 30px;
   line-height: 1.5;
