@@ -19,7 +19,7 @@ class SeccionController extends Controller
     {
         $photoEventos = Photo::where('seccion','eventos-saman')
             ->get();;
-        return view('index',compact('photoEventos'));
+        return view('eventos',compact('photoEventos'));
     }
 
     public function piscina()
