@@ -66,14 +66,6 @@
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="content-box">
-                            <img src="images/servicios/parqueadero.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-4">
-                            <div class="tri-up"></div>
-                            <h3 class="title">Parqueadero</h3>
-                            <p class="content">Puede confiar su vehiculo en nuestro parqueadero para que siempre este a la mano y a su vez con la tranquilidad de tenerlo cerca y en un lugar seguro.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-                        <div class="content-box">
                             <img src="images/servicios/restaurant.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="facility-4">
                             <div class="tri-up"></div>
                             <h3 class="title">Restaurante</h3>
