@@ -7,7 +7,19 @@
         <div class="swiper-container">
             <h2 class="hidden">Main Slider</h2>
             <div class="swiper-wrapper">
+                @foreach( $photoHotel as $photo)
+                    <div class="swiper-slide" style="background: url('fotos/{{$photo->nombre}}') center top/cover no-repeat">
+                        <div class="container">
+                            <div class="slide-content">
+
+
+
+                             </div>
+                    </div>
+                </div>
+                @endforeach
                 <!-- Slide 01 -->
+                <!--
                 <div class="swiper-slide" style="background: url('images/home/slider-1.jpg') center top/cover no-repeat">
                     <div class="container">
                         <div class="slide-content">
@@ -16,11 +28,11 @@
                             <div class="slide-divider" data-animate="fadeInRight"></div>
                             <div class="slide-subtitle-italic" data-animate="fadeInRight" data-delay="300">bringing to you the best experience from only <span class="price">$149</span> / night</div>
                             <a href="#" class="button transparent" data-animate="fadeInRight" data-delay="300">Get this offer</a>-->
-                        </div>
+                   <!--     </div>
                     </div>
                 </div>
                 <!-- Slide 02 -->
-                <div class="swiper-slide" style="background: url('images/home/slider-2.png') center top/cover no-repeat">
+              <!-- <div class="swiper-slide" style="background: url('images/home/slider-2.png') center top/cover no-repeat">
                     <div class="container">
                         <div class="slide-content">
                            <!-- <div class="slide-subtitle" data-animate="fadeInRight">BIENVENIDOS!</div>
@@ -28,9 +40,10 @@
                             <div class="slide-divider" data-animate="fadeInRight"></div>
                             <div class="slide-subtitle-italic">bringing to you the best experience from only <span class="price">$149</span> / night</div>
                             <a href="#" class="button transparent">Get this offer</a>-->
-                        </div>
+                      <!--  </div>
                     </div>
                 </div>
+                -->
             </div>
         </div>
         <div class="main-slider-control prev"><i class="icon-prev"></i></div>
