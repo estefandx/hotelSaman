@@ -49,6 +49,8 @@
                             <option value="Reserva">Solicitud de Reserva</option>
                             <option value="Comentarios">Comentarios</option>
                             <option value="Eventos">Información Eventos</option>
+                            <option value="Eventos">Información Restaurante Las Tapas</option>
+                            <option value="Eventos">Información Piscinas Polideportivo</option>
                         </select>
                         </div>
                         <div class="form-group">
