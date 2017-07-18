@@ -8,8 +8,8 @@
 
     <link rel="icon" type="image/png" href="/images/logos/favicon.png" />
     <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
     <!-- <link href='fonts/fontawesome/css/font-awesome.min.css' rel='stylesheet' type='text/css'>-->
     <link rel="stylesheet" href="{{asset('fonts/fontawesome/css/font-awesome.min.css')}}">
     <!-- <link href='fonts/icomoon/style.css' rel='stylesheet' type='text/css'>-->
@@ -136,5 +136,7 @@
 <script type="text/javascript" src="{{ URL::asset('js/plugins.js')}}"></script>
 <!--<script type="text/javascript" src="js/functions.js"></script>-->
 <script type="text/javascript" src="{{ URL::asset('js/functions.js')}}"></script>
+
+
 </body>
 </html>
