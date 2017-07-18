@@ -17,7 +17,7 @@ class SeccionController extends Controller
 
     public function eventos()
     {
-        $photoEventos = Photo::where('seccion','eventos-saman')
+        $photoEventos = Photo::where('seccion','eventos')
             ->get();;
         return view('index',compact('photoEventos'));
     }
