@@ -24,7 +24,7 @@
 }
 header {
   position: relative;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-weight: 400;
   background-color: transparent;
   color: #202935;
@@ -34,7 +34,7 @@ header {
   z-index: 300;
 }
 header .logo-link {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   color: #fff;
   font-size: 18px;
   font-weight: 400;
@@ -649,13 +649,13 @@ body.loading {
   border-color: #beac5a;
 }
 .title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
 }
 .subtitle {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 24px;
   font-weight: 400;
   margin-top: 6px;
@@ -672,7 +672,7 @@ body.loading {
   color: #59677a;
 }
 .title-big {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
@@ -696,7 +696,7 @@ body.loading {
   transition: 0.3s all ease-in;
 }
 .link {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   font-style: italic;
   font-weight: 400;
@@ -794,7 +794,7 @@ body.loading {
   line-height: 1;
 }
 #main-slider .slide-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 100px;
   text-transform: uppercase;
   font-weight: 400;
@@ -808,7 +808,7 @@ body.loading {
   font-size: 18px;
 }
 #main-slider .slide-subtitle-italic {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-weight: 700;
   font-style: italic;
   font-size: 18px;
@@ -1018,7 +1018,7 @@ section.section-style-2 {
   margin-bottom: -100px;
 }
 .section-why-us .content-box .title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1036,7 +1036,7 @@ section.section-style-2 {
   margin-bottom: 40px;
 }
 .section-rooms .title-room {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1068,7 +1068,7 @@ section.section-style-2 {
   color: #202935;
 }
 .section-rooms .room-container .price-text {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-style: italic;
 }
 .section-rooms .room-container .price-text .price {
@@ -1112,7 +1112,7 @@ section.section-style-2 {
   top: 15px;
 }
 .section-facilities .content-box .title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1161,14 +1161,14 @@ section.section-style-2 {
   padding: 0 50px;
 }
 .section-testimonials .testimonial-box .name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 18px;
   color: #beac5a;
   font-weight: 700;
   margin-top: 100px;
 }
 .section-testimonials .testimonial-box .position {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   font-weight: 400;
   margin-top: 10px;
@@ -1273,13 +1273,13 @@ section.section-style-2 {
 }
 .section-testimonials-2 .testimonial-box .profile .name {
   font-weight: 700;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   margin-top: 10px;
   line-height: 30px;
 }
 .section-testimonials-2 .testimonial-box .profile .position {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   font-weight: 400;
   font-style: italic;
@@ -1348,14 +1348,14 @@ section.section-style-2 {
   padding: 20px 40px 20px 20px;
 }
 .section-from-blog .blog-box .blog-meta-box .blog-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.5;
 }
 .section-from-blog .blog-box .blog-meta-box .post-date {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -1363,7 +1363,7 @@ section.section-style-2 {
   margin-right: 5px;
 }
 .section-from-blog .blog-box .blog-meta-box .post-comments {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   font-weight: 400;
   margin-left: 30px;
@@ -1376,7 +1376,7 @@ section.section-style-2 {
   text-align: center;
   position: relative;
   background-color: #d7cbae;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   background: -webkit-linear-gradient(top, #ffffff, #d7cbae);
   background: -moz-linear-gradient(top, #ffffff, #d7cbae);
   background: -o-linear-gradient(top, #ffffff, #d7cbae);
@@ -1452,7 +1452,7 @@ section.section-style-2 {
   letter-spacing: -2px;
 }
 .section-accommodations .subtitle {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 24px;
   font-weight: 400;
   color: #beac5a;
@@ -1485,14 +1485,14 @@ section.section-style-2 {
   transition: transform 0.4s;
 }
 .section-accommodations .rooms-thumb-area .room-thumb-box .room-meta-box .room-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
 }
 .section-accommodations .rooms-thumb-area .room-thumb-box .room-meta-box .room-subtitle {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1571,7 +1571,7 @@ section.section-style-2 {
   text-transform: none;
 }
 .section-gallery .content {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
@@ -1585,7 +1585,7 @@ section.section-style-2 {
   margin-bottom: 10px;
   margin-top: 10px;
   margin-top: 20px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   color: #beac5a;
   font-weight: 400;
   font-size: 14px;
@@ -1598,7 +1598,7 @@ section.section-style-2 {
   margin-bottom: 10px;
   margin-top: 10px;
   margin-top: 20px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   color: #beac5a;
   font-weight: 400;
   font-size: 14px;
@@ -1620,7 +1620,7 @@ section.section-style-2 {
   margin-left: 3px;
 }
 .section-gallery .post-social-links {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   border: 1px solid #202935;
   margin-top: 20px;
 }
@@ -1638,7 +1638,7 @@ section.section-style-2 {
 }
 .section-gallery .post-social-links > div.header {
   font-weight: bold;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   border-right: 1px solid #202935;
   width: 40%;
@@ -1779,7 +1779,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
   margin-left: 25px;
 }
 .section-room-single ul.two-cols li a {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   font-style: italic;
   font-weight: 400;
@@ -1817,7 +1817,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
   border-top: 1px solid #beac5a;
 }
 .section-room-single .widget-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0px;
@@ -1828,7 +1828,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
 }
 .section-room-single em {
   font-weight: 400;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
 }
 .section-room-single .include-header {
@@ -1877,7 +1877,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
   display: inline-block;
   border-radius: 25px;
   background-color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 21px;
   color: #59677a;
   line-height: 45px;
@@ -1909,7 +1909,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
 }
 .section-booking em {
   font-weight: 400;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
 }
 .section-booking ul.two-cols {
@@ -1930,7 +1930,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
   color: #59677a;
 }
 .section-booking ul.two-cols li a {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   font-style: italic;
   font-weight: 400;
@@ -1967,7 +1967,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
   border-top: 1px solid #beac5a;
 }
 .section-booking .widget-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0px;
@@ -2067,7 +2067,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
   width: auto;
 }
 .section-booking .reservation-container .reservation-form .buttons-container .space-text {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-style: italic;
   margin-left: 5px;
   margin-right: 5px;
@@ -2087,7 +2087,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
 .section-blog .list-container .post-category,
 .section-blog .blog-container .post-category {
   margin-top: 20px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
 }
 .section-blog .list-container .post-category .secondary,
@@ -2096,7 +2096,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
 }
 .section-blog .list-container .post-title,
 .section-blog .blog-container .post-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
@@ -2105,7 +2105,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
 }
 .section-blog .list-container .post-date,
 .section-blog .blog-container .post-date {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -2117,7 +2117,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
 .section-blog .blog-container .post-comments,
 .section-blog .list-container .post-author-name,
 .section-blog .blog-container .post-author-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   font-weight: 400;
   margin-left: 20px;
@@ -2130,7 +2130,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
 }
 .section-blog .list-container .post-social-links,
 .section-blog .blog-container .post-social-links {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   border: 1px solid #202935;
   margin-top: 20px;
 }
@@ -2143,7 +2143,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
 .section-blog .list-container .post-social-links > div.header,
 .section-blog .blog-container .post-social-links > div.header {
   font-weight: bold;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   border-right: 1px solid #202935;
   width: 40%;
@@ -2202,7 +2202,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
 }
 .section-blog .list-container .post-author .author-info .author-name,
 .section-blog .blog-container .post-author .author-info .author-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
@@ -2219,7 +2219,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
 }
 .section-blog .list-container .page-controls,
 .section-blog .blog-container .page-controls {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   font-style: italic;
   height: 50px;
@@ -2237,7 +2237,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
   margin-bottom: 30px;
 }
 .section-blog .blog-container .comments-container .subtitle {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
@@ -2260,7 +2260,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
   margin-left: 100px;
 }
 .section-blog .blog-container .comments-container .comment-box .comment-info .comment-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
@@ -2268,7 +2268,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
   line-height: 1.5;
 }
 .section-blog .blog-container .comments-container .comment-box .comment-info .comment-date {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
@@ -2291,7 +2291,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
   padding-bottom: 30px;
 }
 .section-blog .blog-container .leave-comment-container .subtitle {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
@@ -2330,7 +2330,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
   border-top: 1px solid #beac5a;
 }
 .section-blog .widget-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0px;
@@ -2344,7 +2344,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
   font-weight: 400;
   color: #202935;
   letter-spacing: -0.2px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   list-style: none;
   letter-spacing: 0;
@@ -2357,7 +2357,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
   font-style: italic;
   font-weight: 400;
   color: #202935;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-style: normal;
 }
 .section-blog ul.categories li a:hover,
@@ -2446,7 +2446,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
 }
 .section-contact-us .office-box .subtitle {
   text-transform: uppercase;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-weight: 700;
   font-size: 14px;
   margin-bottom: 10px;
@@ -2504,7 +2504,7 @@ form.check-rooms.vertical .form-group > i.fa-caret-down {
   border: none;
   border-radius: 0px;
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
 }
 .accordion .panel .panel-heading .panel-title {
@@ -2555,7 +2555,7 @@ footer {
 }
 footer .subtitle {
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 400;
@@ -2684,7 +2684,7 @@ footer .copyright-area {
   text-align: center;
   background-color: #1c242f;
   color: #ffffff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   font-weight: 400;
   height: 70px;

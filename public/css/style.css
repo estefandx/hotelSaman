@@ -56,15 +56,19 @@ header li {
 header .container {
   height: 99px;
 }
+
 header .main-menu {
   float: right;
-  height: 99px;
-  position: relative;
-  padding-left: 40px;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  padding-left: 350px;
+  background-color: #0A401F;
 }
 header .main-menu ul {
   float: left;
   padding: 0;
+
 }
 header .main-menu .menu-item {
   display: block;
@@ -76,14 +80,15 @@ header .main-menu .menu-item > a {
   padding: 0 14px;
   font-size: 14px;
   font-weight: bold;
-  height: 99px;
-  line-height: 99px;
-  color: #202935;
+  height: 50px;
+  line-height: 50px;
+  color: #ffffff;
   letter-spacing: 0.5px;
+
 }
 header .main-menu .menu-item > a:hover {
   background-color: #0A401F;
-  color: #ffffff;
+  color: #fff400;
 }
 header .main-menu .menu-item:hover .submenu {
   visibility: visible;
@@ -103,7 +108,7 @@ header .main-menu .menu-item:not(:first-of-type):before {
   content: '';
   position: absolute;
   left: -1px;
-  top: 45px;
+  top: 20px;
   width: 1px;
   height: 11px;
   background-color: #bcbec0;
@@ -1376,6 +1381,13 @@ section.section-style-2 {
   position: relative;
   background-color: #0a401f;
   font-family: 'Cabin', serif;
+  background: -webkit-linear-gradient(top, #ffffff, #0a401f);
+    background: -moz-linear-gradient(top, #ffffff, #0a401f);
+    background: -o-linear-gradient(top, #ffffff, #0a401f);
+    background: linear-gradient(to bottom, #ffffff, #0a401f);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .section-breadcrumb:before {
   content: '';
