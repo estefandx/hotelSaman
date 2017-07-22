@@ -44,6 +44,9 @@ class PhotoController extends Controller
         //$file->move('peliculas',$nombre);
         \Storage::disk('local')->put($nombre, \File::get($file));
 
+
+
+
         Photo::create([
             'nombre' => $nombre,
             'seccion' => $request['seccion'],

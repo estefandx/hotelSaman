@@ -24,7 +24,6 @@
     <link  type='text/css'  rel="stylesheet" href="{{asset('css/swiper.min.css')}}">
     <!-- <link href='css/style.css' rel='stylesheet' type='text/css'>-->
     <link  type='text/css'  rel="stylesheet" href="{{asset('css/style.css')}}">
-    <link rel="stylesheet" type="text/css" href="css/menu.css">
 
     <title> @yield('titulo')</title>
 
@@ -40,8 +39,13 @@
 <div >
     <div class="container">
         <a href="{{url('/')}}"><img class="logo" src="images/logos/logo.png" alt="Logo"></a>
-    </div >
-        <nav class="main-menu clearfix" >
+
+        <a href="{{url('/')}}"><img style="float:right; padding-top: 15px;" src="images/home/face.png" alt="facebook-saman"></a>
+        <a href="{{url('/')}}"><img   style="float:right; padding-top: 15px; " src="images/home/insta.png" alt="instagram-saman"></a>
+
+
+        <nav class="main-menu clearfix">
+
             <h2 class="hidden">Main Menu</h2>
             <ul>
                 <li class="menu-item">
@@ -121,9 +125,7 @@
             </div>
                 <div class="social-links text-right">
                     <a class="social-link" href="#"><i class="fa fa-facebook"></i><i class="fa fa-facebook"></i></a>
-                    <a class="social-link" href="#"><i class="fa fa-twitter"></i><i class="fa fa-twitter"></i></a>
                     <a class="social-link" href="#"><i class="fa fa-instagram"></i><i class="fa fa-instagram"></i></a>
-                    <a class="social-link" href="#"><i class="fa fa-youtube"></i><i class="fa fa-youtube"></i></a>
                 </div>
         </div>
     </div>
