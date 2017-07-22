@@ -24,7 +24,6 @@
     <link  type='text/css'  rel="stylesheet" href="{{asset('css/swiper.min.css')}}">
     <!-- <link href='css/style.css' rel='stylesheet' type='text/css'>-->
     <link  type='text/css'  rel="stylesheet" href="{{asset('css/style.css')}}">
-    <link rel="stylesheet" type="text/css" href="css/menu.css">
 
     <title> @yield('titulo')</title>
 
@@ -39,7 +38,10 @@
 
 <div class="container">
         <a href="{{url('/')}}"><img class="logo" src="images/logos/logo.png" alt="Logo"></a>
-        
+        <a href="{{url('/')}}"><img style="float:right; padding-top: 15px;" src="images/home/face.png" alt="facebook-saman"></a>
+        <a href="{{url('/')}}"><img   style="float:right; padding-top: 15px; " src="images/home/insta.png" alt="instagram-saman"></a>
+
+
         <nav class="main-menu clearfix">
             <h2 class="hidden">Main Menu</h2>
             <ul>
