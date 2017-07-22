@@ -77,6 +77,43 @@
         </div>
     </div>
 
+<section class="section-gallery">
+        <div class="container ">
+            <div class="gallery-container">
+                <div class="row gallery-images">
+                    <div class="col-md-4 col-xs-6">
+                        <img src="images/eventos/Eventos3.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="image-1" width="288" height="384">
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <img src="images/eventos/Eventos16.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="image-2" width="288" height="384">
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <img src="images/eventos/Eventos7.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="image-3" width="288" height="384">
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <img src="images/eventos/Eventos8.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="image-4" width="288" height="384">
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <img src="images/eventos/Eventos13.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="image-5" width="288" height="384">
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <img src="images/eventos/Eventos43.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="image-6" width="288" height="384">
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <img src="images/eventos/Eventos29.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="image-6" width="288" height="384">
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <img src="images/eventos/Eventos30.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="image-6" width="288" height="384">
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <img src="images/eventos/Eventos31.jpg" class="img-centered img-responsive" data-animate="zoomIn" alt="image-6" width="288" height="384">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 <!--servicios-->
 <section class="section-breadcrumb">
         <h2 class="title" >Conócenos</h2>
