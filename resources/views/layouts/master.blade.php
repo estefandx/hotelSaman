@@ -6,7 +6,7 @@
     <meta name="author" content="Theme-Paradise" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link rel="icon" type="image/png" href="/images/logos/favicon.png" />
+    <link rel="icon" type="image/png" href="/images/logos/favicon.png"  />
     <!-- Google Fonts -->
 
     <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
@@ -37,10 +37,11 @@
 
 <header >
 
-<div class="container">
+<div >
+    <div class="container">
         <a href="{{url('/')}}"><img class="logo" src="images/logos/logo.png" alt="Logo"></a>
-        
-        <nav class="main-menu clearfix">
+    </div >
+        <nav class="main-menu clearfix" >
             <h2 class="hidden">Main Menu</h2>
             <ul>
                 <li class="menu-item">
