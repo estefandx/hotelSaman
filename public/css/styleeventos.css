@@ -75,7 +75,7 @@ header .main-menu .menu-item > a {
   letter-spacing: 0.5px;
 }
 header .main-menu .menu-item > a:hover {
-  background-color: #0A401F;
+  background-color: #352609;
   color: #ffffff;
 }
 header .main-menu .menu-item:hover .submenu {
@@ -848,7 +848,7 @@ body.loading {
   float: left;
   width: 10px;
   height: 10px;
-  background-color: #0A401F;
+  background-color: #B0901E;
   border-radius: 0;
   box-sizing: content-box;
   opacity: 1 !important;
@@ -890,11 +890,11 @@ body.loading {
   line-height: 64px;
   font-size: 28px;
   text-align: center;
-  color: #0A401F;
+  color: #B0901E;
   top: 50%;
   margin-top: -60px;
   cursor: pointer;
-  border: 1px solid #0A401F;
+  border: 1px solid #B0901E;
   border-radius: 30px;
   opacity: 0;
   z-index: 211;
@@ -912,8 +912,8 @@ body.loading {
   padding-left: 5px;
 }
 #main-slider .main-slider-control:hover {
-  background-color: #0A401F;
-  border-color: #0A401F;
+  background-color: #B0901E;
+  border-color: #B0901E;
   color: #fff;
 }
 #main-slider:hover .main-slider-control,
@@ -1367,12 +1367,12 @@ section.section-style-2 {
   padding: 90px 0;
   text-align: center;
   position: relative;
-  background-color: #0a401f;
+  background-color: #B0901E;
   font-family: 'Cabin', serif;
-    background: -webkit-linear-gradient(top, #ffffff, #0a401f);
-    background: -moz-linear-gradient(top, #ffffff, #0a401f);
-    background: -o-linear-gradient(top, #ffffff, #0a401f);
-    background: linear-gradient(to bottom, #ffffff, #0a401f);
+    background: -webkit-linear-gradient(top, #ffffff, #B0901E);
+    background: -moz-linear-gradient(top, #ffffff, #B0901E);
+    background: -o-linear-gradient(top, #ffffff, #B0901E);
+    background: linear-gradient(to bottom, #ffffff, #B0901E);
     font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -1397,7 +1397,7 @@ section.section-style-2 {
 }
 .section-breadcrumb .title {
   font-size: 35px;
-  color: #ffffff;
+  color: #352609;
 }
 .section-breadcrumb .breadcrumb {
   background-color: transparent;
@@ -2544,7 +2544,7 @@ footer {
   padding-bottom: 0px;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
-  background-color: #0a401f;
+  background-color: #B0901E;
 }
 footer .subtitle {
   color: #fff;

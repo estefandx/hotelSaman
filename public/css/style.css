@@ -1377,6 +1377,7 @@ section.section-style-2 {
 }
 .section-breadcrumb {
   padding: 90px 0;
+  margin-top: 30px;
   text-align: center;
   position: relative;
   background-color: #0a401f;
