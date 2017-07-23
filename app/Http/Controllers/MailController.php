@@ -13,7 +13,7 @@ class MailController extends Controller
     {
     	Mail::send('correo',$request->all(), function($msj){
     		$msj->subject('correo de contacto');
-    		$msj->to('ingsistemasjf@gmail.com');
+    		$msj->to('estefandx@hotmail.com');
     	});
     	Session::flash('message','Mensaje enviado correctamente');
     	return Redirect::to('/contact');
