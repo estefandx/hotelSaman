@@ -40,7 +40,7 @@
     <div class="container">
         <a href="{{url('/')}}"><img class="logo" src="images/logos/logo.png" alt="Logo"></a>
 
-        <a href="{{url('/')}}"><img style="float:right; padding-top: 15px;" src="images/home/face.png" alt="facebook-saman"></a>
+        <a href="https://www.facebook.com/hotelelsamanviterbo/" target="_blank"https://www.facebook.com/hotelelsamanviterbo/><img style="float:right; padding-top: 15px;" src="images/home/face.png" alt="facebook-saman"></a>
         <a href="{{url('/')}}"><img   style="float:right; padding-top: 15px; " src="images/home/insta.png" alt="instagram-saman"></a>
 
 
