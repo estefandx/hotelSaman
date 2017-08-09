@@ -42,7 +42,7 @@
 
         <a href="https://www.facebook.com/hotelelsamanviterbo/" target="_blank"https://www.facebook.com/hotelelsamanviterbo/><img style="float:right; padding-top: 15px;" src="images/home/face.png" alt="facebook-saman"></a>
         <a href="{{url('/')}}"><img   style="float:right; padding-top: 15px; " src="images/home/insta.png" alt="instagram-saman"></a>
-
+        <a href="" target="_blank"><img style="float:right; padding-top: 15px;" src="http://www.hotelyeventoselsaman.com/public/images/home/youtube.png" alt="youtube-saman"></a>
 
         <nav class="main-menu clearfix">
 
@@ -126,6 +126,7 @@
                 <div class="social-links text-right">
                     <a class="social-link" href="#"><i class="fa fa-facebook"></i><i class="fa fa-facebook"></i></a>
                     <a class="social-link" href="#"><i class="fa fa-instagram"></i><i class="fa fa-instagram"></i></a>
+                    <a class="social-link" href="#"><i class="fa fa-youtube"></i><i class="fa fa-youtube"></i></a>
                 </div>
         </div>
     </div>

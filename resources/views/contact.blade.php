@@ -74,7 +74,13 @@
                 </div>
                 <div class="col-md-6">
                     <img src="images/otras/reception.jpg" class="img-centered img-responsive" alt="contact-bg">
-                </div>
+                </div class="col-md-6">
+            </div>
+            <div >
+                <p class="content">¿Deseas pagar tu reserva en linea? Hazlo por Pagos PSE</p>
+            </div>
+            <div >
+                <a href="https://www.pse.com.co/inicio" target="_blank"><img src="images/otras/pagos.png"  width="282" height="120"></a>
             </div>
         </div>
     </section>

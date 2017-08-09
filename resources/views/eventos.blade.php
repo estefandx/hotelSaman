@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="Theme-Paradise" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="icon" type="image/png" href="/images/logos/favicon.png" />
+    <link rel="icon" type="image/png" href="/images/logos/fav-eventos.png" />
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
@@ -152,6 +152,7 @@
                             <div class="address-line"><i class="fa fa-user"></i>Luis Bernardo Yepes Muñoz</div>
                             <div class="address-line"><i class="fa fa-phone"></i>(+57)321 645 5518 – (+57)311 617 1030</div>
                             <div class="address-line"><i class="fa fa-envelope"></i>samaneventos@hotmail.com</div>
+                            <div class="address-line"><i class="fa fa-globe"></i><a href="{{url('/contact')}}">Clic aquí y Contáctanos!</a></div>
                         </div>
                     </div>
                 </div>
